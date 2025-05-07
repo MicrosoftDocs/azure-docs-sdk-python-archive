@@ -1,28 +1,45 @@
 {
   "build": {
-    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
-	"src": "docs-ref-autogen",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
+        "exclude": ["**/*-index.md"],
+        "src": "docs-ref-services/legacy",
+        "group": "previous",
+        "dest": "api/overview/azure"
       },
-	  {
+      {
+        "files": [
+          "*.md",
+          "*.yml"
+        ],
+        "exclude": ["**/*-index.md"],
+        "src": "docs-ref-services",
+        "group": "all",
+        "dest": "api/overview/azure"
+      },
+      {
         "files": [
           "**/*.yml"
         ],
-        "src": "breadcrumb",
-        "dest": "breadcrumb",
+        "src": "previous/docs-ref-autogen",
+        "group": "previous",
+        "dest": "api",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "bread",
+        "dest": "azure/bread",
+        "group": "all",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
@@ -35,27 +52,69 @@
           "**/*.png",
           "**/*.jpg"
         ],
+        "src": "docs-ref-conceptual",
+        "dest": "azure",
         "exclude": [
           "**/obj/**",
           "**/includes/**"
         ]
       }
     ],
+    "groups": {
+      "previous": {
+        "dest": "previous",
+        "moniker_range": "azure-python-archive-previous"
+      },
+      "all": {
+        "dest": "all",
+        "moniker_range": "azure-python-archive-previous"
+      }
+    },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
       "ROBOTS": "NOINDEX,NOFOLLOW",
       "is_archived": true,
       "is_retired": false,
+      "learn_archive": "manual",
+      "uhfHeaderId": "Azure",
       "feedback_system": "None",
-      "learn_archive": "manual",	    
-      "breadcrumb_path": "~/breadcrumb/toc.yml"
+      "breadcrumb_path": "/python/azure/bread/toc.json",
+      "apiPlatform": "python",
+      "brand": "azure",
+      "searchScope": [
+        "Azure",
+        "Azure SDK for Python"
+      ],
+      "contributors_to_exclude": [
+        "danieljurek",
+        "JimSuplizio"
+      ]
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "monikers": {
+        "docs-ref-services/legacy/**": [
+          "azure-python-archive-previous"
+        ]
+      },
+      "author": {
+        "docs-ref-services/**": "azure-sdk"
+      },
+      "ms.author": {
+        "docs-ref-services/**": "azsdkdocs"
+      },
+      "ms.custom": {
+        "docs-ref-services/**/*.md": "tracking-python"
+      },
+      "ms.topic": {
+        "previous/docs-ref-autogen/**/*.yml": "generated-reference"
+      }
+    },
     "template": [],
-    "dest": "_site",
-	"xref": [
-      "../xrefmap.yml"
-    ]
+    "dest": "azure-python-sdk",
+    "xref": [
+      "xrefmap.yml"
+    ],
+    "markdownEngineName": "markdig"
   }
 }
