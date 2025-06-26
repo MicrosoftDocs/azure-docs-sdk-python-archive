@@ -190,6 +190,14 @@
         href: ~/docs-ref-services/legacy/mgmt-scheduler-readme.md
         children:
         - azure.mgmt.scheduler
+  - name: Schema Registry
+    href: ~/docs-ref-services/legacy/schema-registry.md
+    landingPageType: Service
+    items:
+    - name: Schema Registry - Avro (deprecated)
+      href: ~/docs-ref-services/legacy/schemaregistry-avroserializer-readme.md
+      children:
+      - azure.schemaregistry.serializer
   - name: Stack Edge
     href: ~/docs-ref-services/legacy/stack-edge.md
     landingPageType: Service

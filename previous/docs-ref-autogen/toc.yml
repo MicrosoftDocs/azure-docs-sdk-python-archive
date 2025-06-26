@@ -1,5 +1,31 @@
 - items:
   - name: Overview
+    uid: azure.schemaregistry.serializer
+  - items:
+    - name: Overview
+      uid: azure.schemaregistry.serializer.avroserializer
+    - items:
+      - name: Overview
+        uid: azure.schemaregistry.serializer.avroserializer.aio
+      - name: AvroSerializer
+        uid: azure.schemaregistry.serializer.avroserializer.aio.AvroSerializer
+      name: aio
+    - items:
+      - name: Overview
+        uid: azure.schemaregistry.serializer.avroserializer.exceptions
+      - name: SchemaDeserializationError
+        uid: azure.schemaregistry.serializer.avroserializer.exceptions.SchemaDeserializationError
+      - name: SchemaParseError
+        uid: azure.schemaregistry.serializer.avroserializer.exceptions.SchemaParseError
+      - name: SchemaSerializationError
+        uid: azure.schemaregistry.serializer.avroserializer.exceptions.SchemaSerializationError
+      name: exceptions
+    - name: AvroSerializer
+      uid: azure.schemaregistry.serializer.avroserializer.AvroSerializer
+    name: avroserializer
+  name: azure.schemaregistry.serializer
+- items:
+  - name: Overview
     uid: azure.datalake.store
   - items:
     - name: Overview
