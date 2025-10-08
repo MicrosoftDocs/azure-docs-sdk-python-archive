@@ -2,7 +2,7 @@
   landingPageType: Root
   expanded: false
   items:
-  - name: AgriFood
+  - name: Agrifood
     href: ~/docs-ref-services/legacy/agrifood.md
     landingPageType: Service
     items:
@@ -40,6 +40,14 @@
         href: ~/docs-ref-services/legacy/mgmt-azureadb2c-readme.md
         children:
         - azure.mgmt.azureadb2c
+  - name: Azure Remote Rendering
+    href: ~/docs-ref-services/legacy/azure-remote-rendering.md
+    landingPageType: Service
+    items:
+    - name: Azure Remote Rendering (deprecated)
+      href: ~/docs-ref-services/legacy/mixedreality-remoterendering-readme.md
+      children:
+      - azure.mixedreality.remoterendering
   - name: Batch AI
     href: ~/docs-ref-services/legacy/batch-ai.md
     landingPageType: Service
