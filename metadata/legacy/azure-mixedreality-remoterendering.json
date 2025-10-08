@@ -1,0 +1,22 @@
+{
+  "Name": "azure-mixedreality-remoterendering",
+  "Version": "1.0.0b2",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/remoterendering/azure-mixedreality-remoterendering",
+  "ServiceDirectory": "remoterendering",
+  "ReadMePath": "sdk/remoterendering/azure-mixedreality-remoterendering/README.md",
+  "ChangeLogPath": "sdk/remoterendering/azure-mixedreality-remoterendering/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-mixedreality-remoterendering",
+  "ReleaseStatus": "2023-07-03",
+  "DocsCiConfigProperties": {
+    "package_info": {
+      "prefer_source_distribution": false
+    }
+  },
+  "Namespaces": [
+    "azure.mixedreality.remoterendering"
+  ]
+}
