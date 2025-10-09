@@ -23142,6 +23142,66 @@
   - azure.mgmt.workloadmonitor
 - items:
   - name: Overview
+    uid: azure.mixedreality.remoterendering
+  - items:
+    - name: Overview
+      uid: azure.mixedreality.remoterendering.aio
+    - name: RemoteRenderingClient
+      no-loc:
+      - RemoteRenderingClient
+      uid: azure.mixedreality.remoterendering.aio.RemoteRenderingClient
+    name: aio
+    no-loc:
+    - aio
+  - name: AssetConversion
+    no-loc:
+    - AssetConversion
+    uid: azure.mixedreality.remoterendering.AssetConversion
+  - name: AssetConversionInputSettings
+    no-loc:
+    - AssetConversionInputSettings
+    uid: azure.mixedreality.remoterendering.AssetConversionInputSettings
+  - name: AssetConversionOutput
+    no-loc:
+    - AssetConversionOutput
+    uid: azure.mixedreality.remoterendering.AssetConversionOutput
+  - name: AssetConversionOutputSettings
+    no-loc:
+    - AssetConversionOutputSettings
+    uid: azure.mixedreality.remoterendering.AssetConversionOutputSettings
+  - name: AssetConversionSettings
+    no-loc:
+    - AssetConversionSettings
+    uid: azure.mixedreality.remoterendering.AssetConversionSettings
+  - name: AssetConversionStatus
+    no-loc:
+    - AssetConversionStatus
+    uid: azure.mixedreality.remoterendering.AssetConversionStatus
+  - name: RemoteRenderingClient
+    no-loc:
+    - RemoteRenderingClient
+    uid: azure.mixedreality.remoterendering.RemoteRenderingClient
+  - name: RemoteRenderingError
+    no-loc:
+    - RemoteRenderingError
+    uid: azure.mixedreality.remoterendering.RemoteRenderingError
+  - name: RenderingSession
+    no-loc:
+    - RenderingSession
+    uid: azure.mixedreality.remoterendering.RenderingSession
+  - name: RenderingSessionSize
+    no-loc:
+    - RenderingSessionSize
+    uid: azure.mixedreality.remoterendering.RenderingSessionSize
+  - name: RenderingSessionStatus
+    no-loc:
+    - RenderingSessionStatus
+    uid: azure.mixedreality.remoterendering.RenderingSessionStatus
+  name: azure.mixedreality.remoterendering
+  no-loc:
+  - azure.mixedreality.remoterendering
+- items:
+  - name: Overview
     uid: azure.purview.catalog
   - items:
     - name: Overview
