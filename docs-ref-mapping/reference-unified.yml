@@ -452,7 +452,7 @@
       href: ~/docs-ref-services/{moniker}/ai-vision-imageanalysis-readme.md
       children:
       - azure.ai.vision.imageanalysis
-    - name: VoiceLive
+    - name: Voice Live
       href: ~/docs-ref-services/{moniker}/ai-voicelive-readme.md
       children:
       - azure.ai.voicelive
@@ -1032,6 +1032,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-devtestlabs-readme.md
         children:
         - azure.mgmt.devtestlabs
+  - name: Disconnectedoperations
+    href: ~/docs-ref-services/{moniker}/disconnectedoperations.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Disconnectedoperations
+        href: ~/docs-ref-services/{moniker}/mgmt-disconnectedoperations-readme.md
+        children:
+        - azure.mgmt.disconnectedoperations
   - name: DNS
     href: ~/docs-ref-services/{moniker}/dns.md
     landingPageType: Service
@@ -1308,7 +1318,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - HDInsight Containers
+      - name: Resource Management - HDInsight Containers (deprecated)
         href: ~/docs-ref-services/{moniker}/mgmt-hdinsightcontainers-readme.md
         children:
         - azure.mgmt.hdinsightcontainers
@@ -2308,6 +2318,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-recoveryservicessiterecovery-readme.md
         children:
         - azure.mgmt.recoveryservicessiterecovery
+  - name: Recoveryservicesbackup-Passivestamp
+    href: ~/docs-ref-services/{moniker}/recoveryservicesbackup-passivestamp.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Recoveryservicesbackup-Passivestamp
+        href: ~/docs-ref-services/{moniker}/mgmt-recoveryservicesbackup-passivestamp-readme.md
+        children:
+        - azure.mgmt.recoveryservicesbackup.passivestamp
   - name: Red Hat OpenShift (ARO)
     href: ~/docs-ref-services/{moniker}/red-hat-openshift-(aro).md
     landingPageType: Service
@@ -2876,6 +2896,18 @@
         href: ~/docs-ref-services/{moniker}/mgmt-trustedsigning-readme.md
         children:
         - azure.mgmt.trustedsigning
+  - name: unknown
+    href: ~/docs-ref-services/{moniker}/unknown.md
+    landingPageType: Service
+    items:
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/confidentialledger-certificate-readme.md
+      children:
+      - azure.confidentialledger.certificate
+    - name: Microsoft Planetary Microsoft Pro
+      href: ~/docs-ref-services/{moniker}/planetarycomputer-readme.md
+      children:
+      - azure.planetarycomputer
   - name: Video Analyzer
     href: ~/docs-ref-services/{moniker}/video-analyzer.md
     landingPageType: Service
