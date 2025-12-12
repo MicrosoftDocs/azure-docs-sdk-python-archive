@@ -19142,6 +19142,928 @@
   - azure.mgmt.edgegateway
 - items:
   - name: Overview
+    uid: azure.mgmt.hdinsightcontainers
+  - items:
+    - name: Overview
+      uid: azure.mgmt.hdinsightcontainers.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.hdinsightcontainers.aio.operations
+      - name: AvailableClusterPoolVersionsOperations
+        no-loc:
+        - AvailableClusterPoolVersionsOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.AvailableClusterPoolVersionsOperations
+      - name: AvailableClusterVersionsOperations
+        no-loc:
+        - AvailableClusterVersionsOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.AvailableClusterVersionsOperations
+      - name: ClusterAvailableUpgradesOperations
+        no-loc:
+        - ClusterAvailableUpgradesOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterAvailableUpgradesOperations
+      - name: ClusterJobsOperations
+        no-loc:
+        - ClusterJobsOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterJobsOperations
+      - name: ClusterLibrariesOperations
+        no-loc:
+        - ClusterLibrariesOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterLibrariesOperations
+      - name: ClusterPoolAvailableUpgradesOperations
+        no-loc:
+        - ClusterPoolAvailableUpgradesOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterPoolAvailableUpgradesOperations
+      - name: ClusterPoolUpgradeHistoriesOperations
+        no-loc:
+        - ClusterPoolUpgradeHistoriesOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterPoolUpgradeHistoriesOperations
+      - name: ClusterPoolsOperations
+        no-loc:
+        - ClusterPoolsOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterPoolsOperations
+      - name: ClusterUpgradeHistoriesOperations
+        no-loc:
+        - ClusterUpgradeHistoriesOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClusterUpgradeHistoriesOperations
+      - name: ClustersOperations
+        no-loc:
+        - ClustersOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.ClustersOperations
+      - name: LocationsOperations
+        no-loc:
+        - LocationsOperations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.LocationsOperations
+      - name: Operations
+        no-loc:
+        - Operations
+        uid: azure.mgmt.hdinsightcontainers.aio.operations.Operations
+      name: operations
+      no-loc:
+      - operations
+    - name: HDInsightContainersMgmtClient
+      no-loc:
+      - HDInsightContainersMgmtClient
+      uid: azure.mgmt.hdinsightcontainers.aio.HDInsightContainersMgmtClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.hdinsightcontainers.models
+    - name: Action
+      no-loc:
+      - Action
+      uid: azure.mgmt.hdinsightcontainers.models.Action
+    - name: ActionType
+      no-loc:
+      - ActionType
+      uid: azure.mgmt.hdinsightcontainers.models.ActionType
+    - name: AksClusterProfile
+      no-loc:
+      - AksClusterProfile
+      uid: azure.mgmt.hdinsightcontainers.models.AksClusterProfile
+    - name: AksClusterProfileAksClusterAgentPoolIdentityProfile
+      no-loc:
+      - AksClusterProfileAksClusterAgentPoolIdentityProfile
+      uid: azure.mgmt.hdinsightcontainers.models.AksClusterProfileAksClusterAgentPoolIdentityProfile
+    - name: AuthorizationProfile
+      no-loc:
+      - AuthorizationProfile
+      uid: azure.mgmt.hdinsightcontainers.models.AuthorizationProfile
+    - name: AutoscaleProfile
+      no-loc:
+      - AutoscaleProfile
+      uid: azure.mgmt.hdinsightcontainers.models.AutoscaleProfile
+    - name: AutoscaleType
+      no-loc:
+      - AutoscaleType
+      uid: azure.mgmt.hdinsightcontainers.models.AutoscaleType
+    - name: CatalogOptions
+      no-loc:
+      - CatalogOptions
+      uid: azure.mgmt.hdinsightcontainers.models.CatalogOptions
+    - name: Category
+      no-loc:
+      - Category
+      uid: azure.mgmt.hdinsightcontainers.models.Category
+    - name: Cluster
+      no-loc:
+      - Cluster
+      uid: azure.mgmt.hdinsightcontainers.models.Cluster
+    - name: ClusterAKSPatchVersionUpgradeProperties
+      no-loc:
+      - ClusterAKSPatchVersionUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAKSPatchVersionUpgradeProperties
+    - name: ClusterAccessProfile
+      no-loc:
+      - ClusterAccessProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAccessProfile
+    - name: ClusterAksPatchUpgradeHistoryProperties
+      no-loc:
+      - ClusterAksPatchUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAksPatchUpgradeHistoryProperties
+    - name: ClusterAvailableInPlaceUpgradeProperties
+      no-loc:
+      - ClusterAvailableInPlaceUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableInPlaceUpgradeProperties
+    - name: ClusterAvailableUpgrade
+      no-loc:
+      - ClusterAvailableUpgrade
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgrade
+    - name: ClusterAvailableUpgradeAksPatchUpgradeProperties
+      no-loc:
+      - ClusterAvailableUpgradeAksPatchUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgradeAksPatchUpgradeProperties
+    - name: ClusterAvailableUpgradeHotfixUpgradeProperties
+      no-loc:
+      - ClusterAvailableUpgradeHotfixUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgradeHotfixUpgradeProperties
+    - name: ClusterAvailableUpgradeList
+      no-loc:
+      - ClusterAvailableUpgradeList
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgradeList
+    - name: ClusterAvailableUpgradePatchVersionUpgradeProperties
+      no-loc:
+      - ClusterAvailableUpgradePatchVersionUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgradePatchVersionUpgradeProperties
+    - name: ClusterAvailableUpgradeProperties
+      no-loc:
+      - ClusterAvailableUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgradeProperties
+    - name: ClusterAvailableUpgradeType
+      no-loc:
+      - ClusterAvailableUpgradeType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterAvailableUpgradeType
+    - name: ClusterComponentsItem
+      no-loc:
+      - ClusterComponentsItem
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterComponentsItem
+    - name: ClusterConfigFile
+      no-loc:
+      - ClusterConfigFile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterConfigFile
+    - name: ClusterHotfixUpgradeHistoryProperties
+      no-loc:
+      - ClusterHotfixUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterHotfixUpgradeHistoryProperties
+    - name: ClusterHotfixUpgradeProperties
+      no-loc:
+      - ClusterHotfixUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterHotfixUpgradeProperties
+    - name: ClusterHotfixUpgradeRollbackHistoryProperties
+      no-loc:
+      - ClusterHotfixUpgradeRollbackHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterHotfixUpgradeRollbackHistoryProperties
+    - name: ClusterInPlaceUpgradeHistoryProperties
+      no-loc:
+      - ClusterInPlaceUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInPlaceUpgradeHistoryProperties
+    - name: ClusterInPlaceUpgradeProperties
+      no-loc:
+      - ClusterInPlaceUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInPlaceUpgradeProperties
+    - name: ClusterInstanceViewProperties
+      no-loc:
+      - ClusterInstanceViewProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewProperties
+    - name: ClusterInstanceViewPropertiesStatus
+      no-loc:
+      - ClusterInstanceViewPropertiesStatus
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewPropertiesStatus
+    - name: ClusterInstanceViewResult
+      no-loc:
+      - ClusterInstanceViewResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewResult
+    - name: ClusterInstanceViewResultProperties
+      no-loc:
+      - ClusterInstanceViewResultProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewResultProperties
+    - name: ClusterInstanceViewStatus
+      no-loc:
+      - ClusterInstanceViewStatus
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewStatus
+    - name: ClusterInstanceViewsResult
+      no-loc:
+      - ClusterInstanceViewsResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterInstanceViewsResult
+    - name: ClusterJob
+      no-loc:
+      - ClusterJob
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterJob
+    - name: ClusterJobList
+      no-loc:
+      - ClusterJobList
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterJobList
+    - name: ClusterJobProperties
+      no-loc:
+      - ClusterJobProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterJobProperties
+    - name: ClusterLibrary
+      no-loc:
+      - ClusterLibrary
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLibrary
+    - name: ClusterLibraryList
+      no-loc:
+      - ClusterLibraryList
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLibraryList
+    - name: ClusterLibraryManagementOperation
+      no-loc:
+      - ClusterLibraryManagementOperation
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLibraryManagementOperation
+    - name: ClusterLibraryManagementOperationProperties
+      no-loc:
+      - ClusterLibraryManagementOperationProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLibraryManagementOperationProperties
+    - name: ClusterLibraryProperties
+      no-loc:
+      - ClusterLibraryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLibraryProperties
+    - name: ClusterListResult
+      no-loc:
+      - ClusterListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterListResult
+    - name: ClusterLogAnalyticsApplicationLogs
+      no-loc:
+      - ClusterLogAnalyticsApplicationLogs
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLogAnalyticsApplicationLogs
+    - name: ClusterLogAnalyticsProfile
+      no-loc:
+      - ClusterLogAnalyticsProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterLogAnalyticsProfile
+    - name: ClusterPatch
+      no-loc:
+      - ClusterPatch
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPatch
+    - name: ClusterPatchProperties
+      no-loc:
+      - ClusterPatchProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPatchProperties
+    - name: ClusterPatchVersionUpgradeHistoryProperties
+      no-loc:
+      - ClusterPatchVersionUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPatchVersionUpgradeHistoryProperties
+    - name: ClusterPatchVersionUpgradeProperties
+      no-loc:
+      - ClusterPatchVersionUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPatchVersionUpgradeProperties
+    - name: ClusterPatchVersionUpgradeRollbackHistoryProperties
+      no-loc:
+      - ClusterPatchVersionUpgradeRollbackHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPatchVersionUpgradeRollbackHistoryProperties
+    - name: ClusterPool
+      no-loc:
+      - ClusterPool
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPool
+    - name: ClusterPoolAKSPatchVersionUpgradeProperties
+      no-loc:
+      - ClusterPoolAKSPatchVersionUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAKSPatchVersionUpgradeProperties
+    - name: ClusterPoolAksPatchUpgradeHistoryProperties
+      no-loc:
+      - ClusterPoolAksPatchUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAksPatchUpgradeHistoryProperties
+    - name: ClusterPoolAvailableUpgrade
+      no-loc:
+      - ClusterPoolAvailableUpgrade
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAvailableUpgrade
+    - name: ClusterPoolAvailableUpgradeAksPatchUpgradeProperties
+      no-loc:
+      - ClusterPoolAvailableUpgradeAksPatchUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAvailableUpgradeAksPatchUpgradeProperties
+    - name: ClusterPoolAvailableUpgradeList
+      no-loc:
+      - ClusterPoolAvailableUpgradeList
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAvailableUpgradeList
+    - name: ClusterPoolAvailableUpgradeNodeOsUpgradeProperties
+      no-loc:
+      - ClusterPoolAvailableUpgradeNodeOsUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAvailableUpgradeNodeOsUpgradeProperties
+    - name: ClusterPoolAvailableUpgradeProperties
+      no-loc:
+      - ClusterPoolAvailableUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAvailableUpgradeProperties
+    - name: ClusterPoolAvailableUpgradeType
+      no-loc:
+      - ClusterPoolAvailableUpgradeType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolAvailableUpgradeType
+    - name: ClusterPoolComputeProfile
+      no-loc:
+      - ClusterPoolComputeProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolComputeProfile
+    - name: ClusterPoolListResult
+      no-loc:
+      - ClusterPoolListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolListResult
+    - name: ClusterPoolLogAnalyticsProfile
+      no-loc:
+      - ClusterPoolLogAnalyticsProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolLogAnalyticsProfile
+    - name: ClusterPoolNetworkProfile
+      no-loc:
+      - ClusterPoolNetworkProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolNetworkProfile
+    - name: ClusterPoolNodeOsImageUpdateProperties
+      no-loc:
+      - ClusterPoolNodeOsImageUpdateProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolNodeOsImageUpdateProperties
+    - name: ClusterPoolNodeOsUpgradeHistoryProperties
+      no-loc:
+      - ClusterPoolNodeOsUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolNodeOsUpgradeHistoryProperties
+    - name: ClusterPoolProfile
+      no-loc:
+      - ClusterPoolProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolProfile
+    - name: ClusterPoolResourceProperties
+      no-loc:
+      - ClusterPoolResourceProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolResourceProperties
+    - name: ClusterPoolResourcePropertiesAksClusterProfile
+      no-loc:
+      - ClusterPoolResourcePropertiesAksClusterProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolResourcePropertiesAksClusterProfile
+    - name: ClusterPoolResourcePropertiesClusterPoolProfile
+      no-loc:
+      - ClusterPoolResourcePropertiesClusterPoolProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolResourcePropertiesClusterPoolProfile
+    - name: ClusterPoolResourcePropertiesComputeProfile
+      no-loc:
+      - ClusterPoolResourcePropertiesComputeProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolResourcePropertiesComputeProfile
+    - name: ClusterPoolResourcePropertiesLogAnalyticsProfile
+      no-loc:
+      - ClusterPoolResourcePropertiesLogAnalyticsProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolResourcePropertiesLogAnalyticsProfile
+    - name: ClusterPoolResourcePropertiesNetworkProfile
+      no-loc:
+      - ClusterPoolResourcePropertiesNetworkProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolResourcePropertiesNetworkProfile
+    - name: ClusterPoolUpgrade
+      no-loc:
+      - ClusterPoolUpgrade
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgrade
+    - name: ClusterPoolUpgradeHistory
+      no-loc:
+      - ClusterPoolUpgradeHistory
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeHistory
+    - name: ClusterPoolUpgradeHistoryListResult
+      no-loc:
+      - ClusterPoolUpgradeHistoryListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeHistoryListResult
+    - name: ClusterPoolUpgradeHistoryProperties
+      no-loc:
+      - ClusterPoolUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeHistoryProperties
+    - name: ClusterPoolUpgradeHistoryType
+      no-loc:
+      - ClusterPoolUpgradeHistoryType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeHistoryType
+    - name: ClusterPoolUpgradeHistoryUpgradeResultType
+      no-loc:
+      - ClusterPoolUpgradeHistoryUpgradeResultType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeHistoryUpgradeResultType
+    - name: ClusterPoolUpgradeProperties
+      no-loc:
+      - ClusterPoolUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeProperties
+    - name: ClusterPoolUpgradeType
+      no-loc:
+      - ClusterPoolUpgradeType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolUpgradeType
+    - name: ClusterPoolVersion
+      no-loc:
+      - ClusterPoolVersion
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolVersion
+    - name: ClusterPoolVersionProperties
+      no-loc:
+      - ClusterPoolVersionProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolVersionProperties
+    - name: ClusterPoolVersionsListResult
+      no-loc:
+      - ClusterPoolVersionsListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPoolVersionsListResult
+    - name: ClusterProfile
+      no-loc:
+      - ClusterProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterProfile
+    - name: ClusterPrometheusProfile
+      no-loc:
+      - ClusterPrometheusProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterPrometheusProfile
+    - name: ClusterRangerPluginProfile
+      no-loc:
+      - ClusterRangerPluginProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterRangerPluginProfile
+    - name: ClusterResizeData
+      no-loc:
+      - ClusterResizeData
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterResizeData
+    - name: ClusterResizeProperties
+      no-loc:
+      - ClusterResizeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterResizeProperties
+    - name: ClusterResourceProperties
+      no-loc:
+      - ClusterResourceProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterResourceProperties
+    - name: ClusterServiceConfig
+      no-loc:
+      - ClusterServiceConfig
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterServiceConfig
+    - name: ClusterServiceConfigsProfile
+      no-loc:
+      - ClusterServiceConfigsProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterServiceConfigsProfile
+    - name: ClusterUpgrade
+      no-loc:
+      - ClusterUpgrade
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgrade
+    - name: ClusterUpgradeHistory
+      no-loc:
+      - ClusterUpgradeHistory
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeHistory
+    - name: ClusterUpgradeHistoryListResult
+      no-loc:
+      - ClusterUpgradeHistoryListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeHistoryListResult
+    - name: ClusterUpgradeHistoryProperties
+      no-loc:
+      - ClusterUpgradeHistoryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeHistoryProperties
+    - name: ClusterUpgradeHistorySeverityType
+      no-loc:
+      - ClusterUpgradeHistorySeverityType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeHistorySeverityType
+    - name: ClusterUpgradeHistoryType
+      no-loc:
+      - ClusterUpgradeHistoryType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeHistoryType
+    - name: ClusterUpgradeHistoryUpgradeResultType
+      no-loc:
+      - ClusterUpgradeHistoryUpgradeResultType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeHistoryUpgradeResultType
+    - name: ClusterUpgradeProperties
+      no-loc:
+      - ClusterUpgradeProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeProperties
+    - name: ClusterUpgradeRollback
+      no-loc:
+      - ClusterUpgradeRollback
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeRollback
+    - name: ClusterUpgradeRollbackProperties
+      no-loc:
+      - ClusterUpgradeRollbackProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeRollbackProperties
+    - name: ClusterUpgradeType
+      no-loc:
+      - ClusterUpgradeType
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterUpgradeType
+    - name: ClusterVersion
+      no-loc:
+      - ClusterVersion
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterVersion
+    - name: ClusterVersionProperties
+      no-loc:
+      - ClusterVersionProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterVersionProperties
+    - name: ClusterVersionsListResult
+      no-loc:
+      - ClusterVersionsListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ClusterVersionsListResult
+    - name: ComparisonOperator
+      no-loc:
+      - ComparisonOperator
+      uid: azure.mgmt.hdinsightcontainers.models.ComparisonOperator
+    - name: ComparisonRule
+      no-loc:
+      - ComparisonRule
+      uid: azure.mgmt.hdinsightcontainers.models.ComparisonRule
+    - name: ComputeProfile
+      no-loc:
+      - ComputeProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ComputeProfile
+    - name: ComputeResourceDefinition
+      no-loc:
+      - ComputeResourceDefinition
+      uid: azure.mgmt.hdinsightcontainers.models.ComputeResourceDefinition
+    - name: ConnectivityProfile
+      no-loc:
+      - ConnectivityProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ConnectivityProfile
+    - name: ConnectivityProfileWeb
+      no-loc:
+      - ConnectivityProfileWeb
+      uid: azure.mgmt.hdinsightcontainers.models.ConnectivityProfileWeb
+    - name: ContentEncoding
+      no-loc:
+      - ContentEncoding
+      uid: azure.mgmt.hdinsightcontainers.models.ContentEncoding
+    - name: CreatedByType
+      no-loc:
+      - CreatedByType
+      uid: azure.mgmt.hdinsightcontainers.models.CreatedByType
+    - name: CurrentClusterAksVersionStatus
+      no-loc:
+      - CurrentClusterAksVersionStatus
+      uid: azure.mgmt.hdinsightcontainers.models.CurrentClusterAksVersionStatus
+    - name: CurrentClusterPoolAksVersionStatus
+      no-loc:
+      - CurrentClusterPoolAksVersionStatus
+      uid: azure.mgmt.hdinsightcontainers.models.CurrentClusterPoolAksVersionStatus
+    - name: DataDiskType
+      no-loc:
+      - DataDiskType
+      uid: azure.mgmt.hdinsightcontainers.models.DataDiskType
+    - name: DbConnectionAuthenticationMode
+      no-loc:
+      - DbConnectionAuthenticationMode
+      uid: azure.mgmt.hdinsightcontainers.models.DbConnectionAuthenticationMode
+    - name: DeploymentMode
+      no-loc:
+      - DeploymentMode
+      uid: azure.mgmt.hdinsightcontainers.models.DeploymentMode
+    - name: DiskStorageProfile
+      no-loc:
+      - DiskStorageProfile
+      uid: azure.mgmt.hdinsightcontainers.models.DiskStorageProfile
+    - name: ErrorAdditionalInfo
+      no-loc:
+      - ErrorAdditionalInfo
+      uid: azure.mgmt.hdinsightcontainers.models.ErrorAdditionalInfo
+    - name: ErrorDetail
+      no-loc:
+      - ErrorDetail
+      uid: azure.mgmt.hdinsightcontainers.models.ErrorDetail
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.mgmt.hdinsightcontainers.models.ErrorResponse
+    - name: FlinkCatalogOptions
+      no-loc:
+      - FlinkCatalogOptions
+      uid: azure.mgmt.hdinsightcontainers.models.FlinkCatalogOptions
+    - name: FlinkHiveCatalogOption
+      no-loc:
+      - FlinkHiveCatalogOption
+      uid: azure.mgmt.hdinsightcontainers.models.FlinkHiveCatalogOption
+    - name: FlinkJobProfile
+      no-loc:
+      - FlinkJobProfile
+      uid: azure.mgmt.hdinsightcontainers.models.FlinkJobProfile
+    - name: FlinkJobProperties
+      no-loc:
+      - FlinkJobProperties
+      uid: azure.mgmt.hdinsightcontainers.models.FlinkJobProperties
+    - name: FlinkProfile
+      no-loc:
+      - FlinkProfile
+      uid: azure.mgmt.hdinsightcontainers.models.FlinkProfile
+    - name: FlinkStorageProfile
+      no-loc:
+      - FlinkStorageProfile
+      uid: azure.mgmt.hdinsightcontainers.models.FlinkStorageProfile
+    - name: HiveCatalogOption
+      no-loc:
+      - HiveCatalogOption
+      uid: azure.mgmt.hdinsightcontainers.models.HiveCatalogOption
+    - name: IdentityProfile
+      no-loc:
+      - IdentityProfile
+      uid: azure.mgmt.hdinsightcontainers.models.IdentityProfile
+    - name: IpTag
+      no-loc:
+      - IpTag
+      uid: azure.mgmt.hdinsightcontainers.models.IpTag
+    - name: JobType
+      no-loc:
+      - JobType
+      uid: azure.mgmt.hdinsightcontainers.models.JobType
+    - name: KafkaConnectivityEndpoints
+      no-loc:
+      - KafkaConnectivityEndpoints
+      uid: azure.mgmt.hdinsightcontainers.models.KafkaConnectivityEndpoints
+    - name: KafkaProfile
+      no-loc:
+      - KafkaProfile
+      uid: azure.mgmt.hdinsightcontainers.models.KafkaProfile
+    - name: KeyVaultObjectType
+      no-loc:
+      - KeyVaultObjectType
+      uid: azure.mgmt.hdinsightcontainers.models.KeyVaultObjectType
+    - name: LibraryManagementAction
+      no-loc:
+      - LibraryManagementAction
+      uid: azure.mgmt.hdinsightcontainers.models.LibraryManagementAction
+    - name: LoadBasedConfig
+      no-loc:
+      - LoadBasedConfig
+      uid: azure.mgmt.hdinsightcontainers.models.LoadBasedConfig
+    - name: ManagedIdentityProfile
+      no-loc:
+      - ManagedIdentityProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ManagedIdentityProfile
+    - name: ManagedIdentitySpec
+      no-loc:
+      - ManagedIdentitySpec
+      uid: azure.mgmt.hdinsightcontainers.models.ManagedIdentitySpec
+    - name: ManagedIdentityType
+      no-loc:
+      - ManagedIdentityType
+      uid: azure.mgmt.hdinsightcontainers.models.ManagedIdentityType
+    - name: MavenLibraryProperties
+      no-loc:
+      - MavenLibraryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.MavenLibraryProperties
+    - name: MetastoreDbConnectionAuthenticationMode
+      no-loc:
+      - MetastoreDbConnectionAuthenticationMode
+      uid: azure.mgmt.hdinsightcontainers.models.MetastoreDbConnectionAuthenticationMode
+    - name: NameAvailabilityParameters
+      no-loc:
+      - NameAvailabilityParameters
+      uid: azure.mgmt.hdinsightcontainers.models.NameAvailabilityParameters
+    - name: NameAvailabilityResult
+      no-loc:
+      - NameAvailabilityResult
+      uid: azure.mgmt.hdinsightcontainers.models.NameAvailabilityResult
+    - name: NodeProfile
+      no-loc:
+      - NodeProfile
+      uid: azure.mgmt.hdinsightcontainers.models.NodeProfile
+    - name: Operation
+      no-loc:
+      - Operation
+      uid: azure.mgmt.hdinsightcontainers.models.Operation
+    - name: OperationDisplay
+      no-loc:
+      - OperationDisplay
+      uid: azure.mgmt.hdinsightcontainers.models.OperationDisplay
+    - name: OperationListResult
+      no-loc:
+      - OperationListResult
+      uid: azure.mgmt.hdinsightcontainers.models.OperationListResult
+    - name: Origin
+      no-loc:
+      - Origin
+      uid: azure.mgmt.hdinsightcontainers.models.Origin
+    - name: OutboundType
+      no-loc:
+      - OutboundType
+      uid: azure.mgmt.hdinsightcontainers.models.OutboundType
+    - name: ProvisioningStatus
+      no-loc:
+      - ProvisioningStatus
+      uid: azure.mgmt.hdinsightcontainers.models.ProvisioningStatus
+    - name: ProxyResource
+      no-loc:
+      - ProxyResource
+      uid: azure.mgmt.hdinsightcontainers.models.ProxyResource
+    - name: PyPiLibraryProperties
+      no-loc:
+      - PyPiLibraryProperties
+      uid: azure.mgmt.hdinsightcontainers.models.PyPiLibraryProperties
+    - name: RangerAdminSpec
+      no-loc:
+      - RangerAdminSpec
+      uid: azure.mgmt.hdinsightcontainers.models.RangerAdminSpec
+    - name: RangerAdminSpecDatabase
+      no-loc:
+      - RangerAdminSpecDatabase
+      uid: azure.mgmt.hdinsightcontainers.models.RangerAdminSpecDatabase
+    - name: RangerAuditSpec
+      no-loc:
+      - RangerAuditSpec
+      uid: azure.mgmt.hdinsightcontainers.models.RangerAuditSpec
+    - name: RangerProfile
+      no-loc:
+      - RangerProfile
+      uid: azure.mgmt.hdinsightcontainers.models.RangerProfile
+    - name: RangerUsersyncMode
+      no-loc:
+      - RangerUsersyncMode
+      uid: azure.mgmt.hdinsightcontainers.models.RangerUsersyncMode
+    - name: RangerUsersyncSpec
+      no-loc:
+      - RangerUsersyncSpec
+      uid: azure.mgmt.hdinsightcontainers.models.RangerUsersyncSpec
+    - name: Resource
+      no-loc:
+      - Resource
+      uid: azure.mgmt.hdinsightcontainers.models.Resource
+    - name: ScaleActionType
+      no-loc:
+      - ScaleActionType
+      uid: azure.mgmt.hdinsightcontainers.models.ScaleActionType
+    - name: ScalingRule
+      no-loc:
+      - ScalingRule
+      uid: azure.mgmt.hdinsightcontainers.models.ScalingRule
+    - name: Schedule
+      no-loc:
+      - Schedule
+      uid: azure.mgmt.hdinsightcontainers.models.Schedule
+    - name: ScheduleBasedConfig
+      no-loc:
+      - ScheduleBasedConfig
+      uid: azure.mgmt.hdinsightcontainers.models.ScheduleBasedConfig
+    - name: ScheduleDay
+      no-loc:
+      - ScheduleDay
+      uid: azure.mgmt.hdinsightcontainers.models.ScheduleDay
+    - name: ScriptActionProfile
+      no-loc:
+      - ScriptActionProfile
+      uid: azure.mgmt.hdinsightcontainers.models.ScriptActionProfile
+    - name: SecretReference
+      no-loc:
+      - SecretReference
+      uid: azure.mgmt.hdinsightcontainers.models.SecretReference
+    - name: SecretsProfile
+      no-loc:
+      - SecretsProfile
+      uid: azure.mgmt.hdinsightcontainers.models.SecretsProfile
+    - name: ServiceConfigListResult
+      no-loc:
+      - ServiceConfigListResult
+      uid: azure.mgmt.hdinsightcontainers.models.ServiceConfigListResult
+    - name: ServiceConfigListResultProperties
+      no-loc:
+      - ServiceConfigListResultProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ServiceConfigListResultProperties
+    - name: ServiceConfigListResultValueEntity
+      no-loc:
+      - ServiceConfigListResultValueEntity
+      uid: azure.mgmt.hdinsightcontainers.models.ServiceConfigListResultValueEntity
+    - name: ServiceConfigResult
+      no-loc:
+      - ServiceConfigResult
+      uid: azure.mgmt.hdinsightcontainers.models.ServiceConfigResult
+    - name: ServiceConfigResultProperties
+      no-loc:
+      - ServiceConfigResultProperties
+      uid: azure.mgmt.hdinsightcontainers.models.ServiceConfigResultProperties
+    - name: ServiceStatus
+      no-loc:
+      - ServiceStatus
+      uid: azure.mgmt.hdinsightcontainers.models.ServiceStatus
+    - name: Severity
+      no-loc:
+      - Severity
+      uid: azure.mgmt.hdinsightcontainers.models.Severity
+    - name: SparkMetastoreSpec
+      no-loc:
+      - SparkMetastoreSpec
+      uid: azure.mgmt.hdinsightcontainers.models.SparkMetastoreSpec
+    - name: SparkProfile
+      no-loc:
+      - SparkProfile
+      uid: azure.mgmt.hdinsightcontainers.models.SparkProfile
+    - name: SparkUserPlugin
+      no-loc:
+      - SparkUserPlugin
+      uid: azure.mgmt.hdinsightcontainers.models.SparkUserPlugin
+    - name: SparkUserPlugins
+      no-loc:
+      - SparkUserPlugins
+      uid: azure.mgmt.hdinsightcontainers.models.SparkUserPlugins
+    - name: SshConnectivityEndpoint
+      no-loc:
+      - SshConnectivityEndpoint
+      uid: azure.mgmt.hdinsightcontainers.models.SshConnectivityEndpoint
+    - name: SshProfile
+      no-loc:
+      - SshProfile
+      uid: azure.mgmt.hdinsightcontainers.models.SshProfile
+    - name: Status
+      no-loc:
+      - Status
+      uid: azure.mgmt.hdinsightcontainers.models.Status
+    - name: SystemData
+      no-loc:
+      - SystemData
+      uid: azure.mgmt.hdinsightcontainers.models.SystemData
+    - name: TagsObject
+      no-loc:
+      - TagsObject
+      uid: azure.mgmt.hdinsightcontainers.models.TagsObject
+    - name: TrackedResource
+      no-loc:
+      - TrackedResource
+      uid: azure.mgmt.hdinsightcontainers.models.TrackedResource
+    - name: TrinoCoordinator
+      no-loc:
+      - TrinoCoordinator
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoCoordinator
+    - name: TrinoDebugConfig
+      no-loc:
+      - TrinoDebugConfig
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoDebugConfig
+    - name: TrinoProfile
+      no-loc:
+      - TrinoProfile
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoProfile
+    - name: TrinoTelemetryConfig
+      no-loc:
+      - TrinoTelemetryConfig
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoTelemetryConfig
+    - name: TrinoUserPlugin
+      no-loc:
+      - TrinoUserPlugin
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoUserPlugin
+    - name: TrinoUserPlugins
+      no-loc:
+      - TrinoUserPlugins
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoUserPlugins
+    - name: TrinoUserTelemetry
+      no-loc:
+      - TrinoUserTelemetry
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoUserTelemetry
+    - name: TrinoWorker
+      no-loc:
+      - TrinoWorker
+      uid: azure.mgmt.hdinsightcontainers.models.TrinoWorker
+    - name: Type
+      no-loc:
+      - Type
+      uid: azure.mgmt.hdinsightcontainers.models.Type
+    - name: UpdatableClusterProfile
+      no-loc:
+      - UpdatableClusterProfile
+      uid: azure.mgmt.hdinsightcontainers.models.UpdatableClusterProfile
+    - name: UpgradeMode
+      no-loc:
+      - UpgradeMode
+      uid: azure.mgmt.hdinsightcontainers.models.UpgradeMode
+    - name: WebConnectivityEndpoint
+      no-loc:
+      - WebConnectivityEndpoint
+      uid: azure.mgmt.hdinsightcontainers.models.WebConnectivityEndpoint
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.hdinsightcontainers.operations
+    - name: AvailableClusterPoolVersionsOperations
+      no-loc:
+      - AvailableClusterPoolVersionsOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.AvailableClusterPoolVersionsOperations
+    - name: AvailableClusterVersionsOperations
+      no-loc:
+      - AvailableClusterVersionsOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.AvailableClusterVersionsOperations
+    - name: ClusterAvailableUpgradesOperations
+      no-loc:
+      - ClusterAvailableUpgradesOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterAvailableUpgradesOperations
+    - name: ClusterJobsOperations
+      no-loc:
+      - ClusterJobsOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterJobsOperations
+    - name: ClusterLibrariesOperations
+      no-loc:
+      - ClusterLibrariesOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterLibrariesOperations
+    - name: ClusterPoolAvailableUpgradesOperations
+      no-loc:
+      - ClusterPoolAvailableUpgradesOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolAvailableUpgradesOperations
+    - name: ClusterPoolUpgradeHistoriesOperations
+      no-loc:
+      - ClusterPoolUpgradeHistoriesOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolUpgradeHistoriesOperations
+    - name: ClusterPoolsOperations
+      no-loc:
+      - ClusterPoolsOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterPoolsOperations
+    - name: ClusterUpgradeHistoriesOperations
+      no-loc:
+      - ClusterUpgradeHistoriesOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClusterUpgradeHistoriesOperations
+    - name: ClustersOperations
+      no-loc:
+      - ClustersOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.ClustersOperations
+    - name: LocationsOperations
+      no-loc:
+      - LocationsOperations
+      uid: azure.mgmt.hdinsightcontainers.operations.LocationsOperations
+    - name: Operations
+      no-loc:
+      - Operations
+      uid: azure.mgmt.hdinsightcontainers.operations.Operations
+    name: operations
+    no-loc:
+    - operations
+  - name: HDInsightContainersMgmtClient
+    no-loc:
+    - HDInsightContainersMgmtClient
+    uid: azure.mgmt.hdinsightcontainers.HDInsightContainersMgmtClient
+  name: azure.mgmt.hdinsightcontainers
+  no-loc:
+  - azure.mgmt.hdinsightcontainers
+- items:
+  - name: Overview
     uid: azure.mgmt.logz
   - items:
     - name: Overview
@@ -20728,6 +21650,788 @@
   name: azure.mgmt.media
   no-loc:
   - azure.mgmt.media
+- items:
+  - name: Overview
+    uid: azure.mgmt.mobilenetwork
+  - items:
+    - name: Overview
+      uid: azure.mgmt.mobilenetwork.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.mobilenetwork.aio.operations
+      - name: AttachedDataNetworksOperations
+        no-loc:
+        - AttachedDataNetworksOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.AttachedDataNetworksOperations
+      - name: DataNetworksOperations
+        no-loc:
+        - DataNetworksOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.DataNetworksOperations
+      - name: DiagnosticsPackagesOperations
+        no-loc:
+        - DiagnosticsPackagesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.DiagnosticsPackagesOperations
+      - name: ExtendedUeInformationOperations
+        no-loc:
+        - ExtendedUeInformationOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.ExtendedUeInformationOperations
+      - name: MobileNetworksOperations
+        no-loc:
+        - MobileNetworksOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.MobileNetworksOperations
+      - name: Operations
+        no-loc:
+        - Operations
+        uid: azure.mgmt.mobilenetwork.aio.operations.Operations
+      - name: PacketCapturesOperations
+        no-loc:
+        - PacketCapturesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.PacketCapturesOperations
+      - name: PacketCoreControlPlaneVersionsOperations
+        no-loc:
+        - PacketCoreControlPlaneVersionsOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlaneVersionsOperations
+      - name: PacketCoreControlPlanesOperations
+        no-loc:
+        - PacketCoreControlPlanesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreControlPlanesOperations
+      - name: PacketCoreDataPlanesOperations
+        no-loc:
+        - PacketCoreDataPlanesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.PacketCoreDataPlanesOperations
+      - name: RoutingInfoOperations
+        no-loc:
+        - RoutingInfoOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.RoutingInfoOperations
+      - name: ServicesOperations
+        no-loc:
+        - ServicesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.ServicesOperations
+      - name: SimGroupsOperations
+        no-loc:
+        - SimGroupsOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.SimGroupsOperations
+      - name: SimPoliciesOperations
+        no-loc:
+        - SimPoliciesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.SimPoliciesOperations
+      - name: SimsOperations
+        no-loc:
+        - SimsOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.SimsOperations
+      - name: SitesOperations
+        no-loc:
+        - SitesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.SitesOperations
+      - name: SlicesOperations
+        no-loc:
+        - SlicesOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.SlicesOperations
+      - name: UeInformationOperations
+        no-loc:
+        - UeInformationOperations
+        uid: azure.mgmt.mobilenetwork.aio.operations.UeInformationOperations
+      name: operations
+      no-loc:
+      - operations
+    - name: MobileNetworkManagementClient
+      no-loc:
+      - MobileNetworkManagementClient
+      uid: azure.mgmt.mobilenetwork.aio.MobileNetworkManagementClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.mobilenetwork.models
+    - name: Ambr
+      no-loc:
+      - Ambr
+      uid: azure.mgmt.mobilenetwork.models.Ambr
+    - name: Arp
+      no-loc:
+      - Arp
+      uid: azure.mgmt.mobilenetwork.models.Arp
+    - name: AsyncOperationId
+      no-loc:
+      - AsyncOperationId
+      uid: azure.mgmt.mobilenetwork.models.AsyncOperationId
+    - name: AsyncOperationStatus
+      no-loc:
+      - AsyncOperationStatus
+      uid: azure.mgmt.mobilenetwork.models.AsyncOperationStatus
+    - name: AttachedDataNetwork
+      no-loc:
+      - AttachedDataNetwork
+      uid: azure.mgmt.mobilenetwork.models.AttachedDataNetwork
+    - name: AttachedDataNetworkListResult
+      no-loc:
+      - AttachedDataNetworkListResult
+      uid: azure.mgmt.mobilenetwork.models.AttachedDataNetworkListResult
+    - name: AttachedDataNetworkResourceId
+      no-loc:
+      - AttachedDataNetworkResourceId
+      uid: azure.mgmt.mobilenetwork.models.AttachedDataNetworkResourceId
+    - name: AuthenticationType
+      no-loc:
+      - AuthenticationType
+      uid: azure.mgmt.mobilenetwork.models.AuthenticationType
+    - name: AzureStackEdgeDeviceResourceId
+      no-loc:
+      - AzureStackEdgeDeviceResourceId
+      uid: azure.mgmt.mobilenetwork.models.AzureStackEdgeDeviceResourceId
+    - name: AzureStackHCIClusterResourceId
+      no-loc:
+      - AzureStackHCIClusterResourceId
+      uid: azure.mgmt.mobilenetwork.models.AzureStackHCIClusterResourceId
+    - name: BillingSku
+      no-loc:
+      - BillingSku
+      uid: azure.mgmt.mobilenetwork.models.BillingSku
+    - name: CertificateProvisioning
+      no-loc:
+      - CertificateProvisioning
+      uid: azure.mgmt.mobilenetwork.models.CertificateProvisioning
+    - name: CertificateProvisioningState
+      no-loc:
+      - CertificateProvisioningState
+      uid: azure.mgmt.mobilenetwork.models.CertificateProvisioningState
+    - name: CommonSimPropertiesFormat
+      no-loc:
+      - CommonSimPropertiesFormat
+      uid: azure.mgmt.mobilenetwork.models.CommonSimPropertiesFormat
+    - name: ConnectedClusterResourceId
+      no-loc:
+      - ConnectedClusterResourceId
+      uid: azure.mgmt.mobilenetwork.models.ConnectedClusterResourceId
+    - name: CoreNetworkType
+      no-loc:
+      - CoreNetworkType
+      uid: azure.mgmt.mobilenetwork.models.CoreNetworkType
+    - name: CreatedByType
+      no-loc:
+      - CreatedByType
+      uid: azure.mgmt.mobilenetwork.models.CreatedByType
+    - name: CustomLocationResourceId
+      no-loc:
+      - CustomLocationResourceId
+      uid: azure.mgmt.mobilenetwork.models.CustomLocationResourceId
+    - name: DataNetwork
+      no-loc:
+      - DataNetwork
+      uid: azure.mgmt.mobilenetwork.models.DataNetwork
+    - name: DataNetworkConfiguration
+      no-loc:
+      - DataNetworkConfiguration
+      uid: azure.mgmt.mobilenetwork.models.DataNetworkConfiguration
+    - name: DataNetworkListResult
+      no-loc:
+      - DataNetworkListResult
+      uid: azure.mgmt.mobilenetwork.models.DataNetworkListResult
+    - name: DataNetworkResourceId
+      no-loc:
+      - DataNetworkResourceId
+      uid: azure.mgmt.mobilenetwork.models.DataNetworkResourceId
+    - name: DesiredInstallationState
+      no-loc:
+      - DesiredInstallationState
+      uid: azure.mgmt.mobilenetwork.models.DesiredInstallationState
+    - name: DiagnosticsPackage
+      no-loc:
+      - DiagnosticsPackage
+      uid: azure.mgmt.mobilenetwork.models.DiagnosticsPackage
+    - name: DiagnosticsPackageListResult
+      no-loc:
+      - DiagnosticsPackageListResult
+      uid: azure.mgmt.mobilenetwork.models.DiagnosticsPackageListResult
+    - name: DiagnosticsPackageStatus
+      no-loc:
+      - DiagnosticsPackageStatus
+      uid: azure.mgmt.mobilenetwork.models.DiagnosticsPackageStatus
+    - name: DiagnosticsUploadConfiguration
+      no-loc:
+      - DiagnosticsUploadConfiguration
+      uid: azure.mgmt.mobilenetwork.models.DiagnosticsUploadConfiguration
+    - name: DnnIpPair
+      no-loc:
+      - DnnIpPair
+      uid: azure.mgmt.mobilenetwork.models.DnnIpPair
+    - name: EncryptedSimPropertiesFormat
+      no-loc:
+      - EncryptedSimPropertiesFormat
+      uid: azure.mgmt.mobilenetwork.models.EncryptedSimPropertiesFormat
+    - name: EncryptedSimUploadList
+      no-loc:
+      - EncryptedSimUploadList
+      uid: azure.mgmt.mobilenetwork.models.EncryptedSimUploadList
+    - name: ErrorAdditionalInfo
+      no-loc:
+      - ErrorAdditionalInfo
+      uid: azure.mgmt.mobilenetwork.models.ErrorAdditionalInfo
+    - name: ErrorDetail
+      no-loc:
+      - ErrorDetail
+      uid: azure.mgmt.mobilenetwork.models.ErrorDetail
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.mgmt.mobilenetwork.models.ErrorResponse
+    - name: EventHubConfiguration
+      no-loc:
+      - EventHubConfiguration
+      uid: azure.mgmt.mobilenetwork.models.EventHubConfiguration
+    - name: ExtendedUeInfo
+      no-loc:
+      - ExtendedUeInfo
+      uid: azure.mgmt.mobilenetwork.models.ExtendedUeInfo
+    - name: ExtendedUeInfoProperties
+      no-loc:
+      - ExtendedUeInfoProperties
+      uid: azure.mgmt.mobilenetwork.models.ExtendedUeInfoProperties
+    - name: HomeNetworkPrivateKeysProvisioning
+      no-loc:
+      - HomeNetworkPrivateKeysProvisioning
+      uid: azure.mgmt.mobilenetwork.models.HomeNetworkPrivateKeysProvisioning
+    - name: HomeNetworkPrivateKeysProvisioningState
+      no-loc:
+      - HomeNetworkPrivateKeysProvisioningState
+      uid: azure.mgmt.mobilenetwork.models.HomeNetworkPrivateKeysProvisioningState
+    - name: HomeNetworkPublicKey
+      no-loc:
+      - HomeNetworkPublicKey
+      uid: azure.mgmt.mobilenetwork.models.HomeNetworkPublicKey
+    - name: HttpsServerCertificate
+      no-loc:
+      - HttpsServerCertificate
+      uid: azure.mgmt.mobilenetwork.models.HttpsServerCertificate
+    - name: IdentityAndTagsObject
+      no-loc:
+      - IdentityAndTagsObject
+      uid: azure.mgmt.mobilenetwork.models.IdentityAndTagsObject
+    - name: Installation
+      no-loc:
+      - Installation
+      uid: azure.mgmt.mobilenetwork.models.Installation
+    - name: InstallationReason
+      no-loc:
+      - InstallationReason
+      uid: azure.mgmt.mobilenetwork.models.InstallationReason
+    - name: InstallationState
+      no-loc:
+      - InstallationState
+      uid: azure.mgmt.mobilenetwork.models.InstallationState
+    - name: InterfaceProperties
+      no-loc:
+      - InterfaceProperties
+      uid: azure.mgmt.mobilenetwork.models.InterfaceProperties
+    - name: Ipv4Route
+      no-loc:
+      - Ipv4Route
+      uid: azure.mgmt.mobilenetwork.models.Ipv4Route
+    - name: Ipv4RouteNextHop
+      no-loc:
+      - Ipv4RouteNextHop
+      uid: azure.mgmt.mobilenetwork.models.Ipv4RouteNextHop
+    - name: KeyVaultKey
+      no-loc:
+      - KeyVaultKey
+      uid: azure.mgmt.mobilenetwork.models.KeyVaultKey
+    - name: LocalDiagnosticsAccessConfiguration
+      no-loc:
+      - LocalDiagnosticsAccessConfiguration
+      uid: azure.mgmt.mobilenetwork.models.LocalDiagnosticsAccessConfiguration
+    - name: ManagedServiceIdentity
+      no-loc:
+      - ManagedServiceIdentity
+      uid: azure.mgmt.mobilenetwork.models.ManagedServiceIdentity
+    - name: ManagedServiceIdentityType
+      no-loc:
+      - ManagedServiceIdentityType
+      uid: azure.mgmt.mobilenetwork.models.ManagedServiceIdentityType
+    - name: MobileNetwork
+      no-loc:
+      - MobileNetwork
+      uid: azure.mgmt.mobilenetwork.models.MobileNetwork
+    - name: MobileNetworkListResult
+      no-loc:
+      - MobileNetworkListResult
+      uid: azure.mgmt.mobilenetwork.models.MobileNetworkListResult
+    - name: MobileNetworkResourceId
+      no-loc:
+      - MobileNetworkResourceId
+      uid: azure.mgmt.mobilenetwork.models.MobileNetworkResourceId
+    - name: NASRerouteConfiguration
+      no-loc:
+      - NASRerouteConfiguration
+      uid: azure.mgmt.mobilenetwork.models.NASRerouteConfiguration
+    - name: NaptConfiguration
+      no-loc:
+      - NaptConfiguration
+      uid: azure.mgmt.mobilenetwork.models.NaptConfiguration
+    - name: NaptEnabled
+      no-loc:
+      - NaptEnabled
+      uid: azure.mgmt.mobilenetwork.models.NaptEnabled
+    - name: NasEncryptionType
+      no-loc:
+      - NasEncryptionType
+      uid: azure.mgmt.mobilenetwork.models.NasEncryptionType
+    - name: ObsoleteVersion
+      no-loc:
+      - ObsoleteVersion
+      uid: azure.mgmt.mobilenetwork.models.ObsoleteVersion
+    - name: Operation
+      no-loc:
+      - Operation
+      uid: azure.mgmt.mobilenetwork.models.Operation
+    - name: OperationDisplay
+      no-loc:
+      - OperationDisplay
+      uid: azure.mgmt.mobilenetwork.models.OperationDisplay
+    - name: OperationList
+      no-loc:
+      - OperationList
+      uid: azure.mgmt.mobilenetwork.models.OperationList
+    - name: PacketCapture
+      no-loc:
+      - PacketCapture
+      uid: azure.mgmt.mobilenetwork.models.PacketCapture
+    - name: PacketCaptureListResult
+      no-loc:
+      - PacketCaptureListResult
+      uid: azure.mgmt.mobilenetwork.models.PacketCaptureListResult
+    - name: PacketCaptureStatus
+      no-loc:
+      - PacketCaptureStatus
+      uid: azure.mgmt.mobilenetwork.models.PacketCaptureStatus
+    - name: PacketCoreControlPlane
+      no-loc:
+      - PacketCoreControlPlane
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreControlPlane
+    - name: PacketCoreControlPlaneCollectDiagnosticsPackage
+      no-loc:
+      - PacketCoreControlPlaneCollectDiagnosticsPackage
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreControlPlaneCollectDiagnosticsPackage
+    - name: PacketCoreControlPlaneListResult
+      no-loc:
+      - PacketCoreControlPlaneListResult
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreControlPlaneListResult
+    - name: PacketCoreControlPlaneResourceId
+      no-loc:
+      - PacketCoreControlPlaneResourceId
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreControlPlaneResourceId
+    - name: PacketCoreControlPlaneVersion
+      no-loc:
+      - PacketCoreControlPlaneVersion
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreControlPlaneVersion
+    - name: PacketCoreControlPlaneVersionListResult
+      no-loc:
+      - PacketCoreControlPlaneVersionListResult
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreControlPlaneVersionListResult
+    - name: PacketCoreDataPlane
+      no-loc:
+      - PacketCoreDataPlane
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreDataPlane
+    - name: PacketCoreDataPlaneListResult
+      no-loc:
+      - PacketCoreDataPlaneListResult
+      uid: azure.mgmt.mobilenetwork.models.PacketCoreDataPlaneListResult
+    - name: PccRuleConfiguration
+      no-loc:
+      - PccRuleConfiguration
+      uid: azure.mgmt.mobilenetwork.models.PccRuleConfiguration
+    - name: PccRuleQosPolicy
+      no-loc:
+      - PccRuleQosPolicy
+      uid: azure.mgmt.mobilenetwork.models.PccRuleQosPolicy
+    - name: PdnType
+      no-loc:
+      - PdnType
+      uid: azure.mgmt.mobilenetwork.models.PdnType
+    - name: PduSessionType
+      no-loc:
+      - PduSessionType
+      uid: azure.mgmt.mobilenetwork.models.PduSessionType
+    - name: PinholeTimeouts
+      no-loc:
+      - PinholeTimeouts
+      uid: azure.mgmt.mobilenetwork.models.PinholeTimeouts
+    - name: Platform
+      no-loc:
+      - Platform
+      uid: azure.mgmt.mobilenetwork.models.Platform
+    - name: PlatformConfiguration
+      no-loc:
+      - PlatformConfiguration
+      uid: azure.mgmt.mobilenetwork.models.PlatformConfiguration
+    - name: PlatformType
+      no-loc:
+      - PlatformType
+      uid: azure.mgmt.mobilenetwork.models.PlatformType
+    - name: PlmnId
+      no-loc:
+      - PlmnId
+      uid: azure.mgmt.mobilenetwork.models.PlmnId
+    - name: PortRange
+      no-loc:
+      - PortRange
+      uid: azure.mgmt.mobilenetwork.models.PortRange
+    - name: PortReuseHoldTimes
+      no-loc:
+      - PortReuseHoldTimes
+      uid: azure.mgmt.mobilenetwork.models.PortReuseHoldTimes
+    - name: PreemptionCapability
+      no-loc:
+      - PreemptionCapability
+      uid: azure.mgmt.mobilenetwork.models.PreemptionCapability
+    - name: PreemptionVulnerability
+      no-loc:
+      - PreemptionVulnerability
+      uid: azure.mgmt.mobilenetwork.models.PreemptionVulnerability
+    - name: ProvisioningState
+      no-loc:
+      - ProvisioningState
+      uid: azure.mgmt.mobilenetwork.models.ProvisioningState
+    - name: ProxyResource
+      no-loc:
+      - ProxyResource
+      uid: azure.mgmt.mobilenetwork.models.ProxyResource
+    - name: PublicLandMobileNetwork
+      no-loc:
+      - PublicLandMobileNetwork
+      uid: azure.mgmt.mobilenetwork.models.PublicLandMobileNetwork
+    - name: PublicLandMobileNetworkHomeNetworkPublicKeys
+      no-loc:
+      - PublicLandMobileNetworkHomeNetworkPublicKeys
+      uid: azure.mgmt.mobilenetwork.models.PublicLandMobileNetworkHomeNetworkPublicKeys
+    - name: QosPolicy
+      no-loc:
+      - QosPolicy
+      uid: azure.mgmt.mobilenetwork.models.QosPolicy
+    - name: RatType
+      no-loc:
+      - RatType
+      uid: azure.mgmt.mobilenetwork.models.RatType
+    - name: RecommendedVersion
+      no-loc:
+      - RecommendedVersion
+      uid: azure.mgmt.mobilenetwork.models.RecommendedVersion
+    - name: ReinstallRequired
+      no-loc:
+      - ReinstallRequired
+      uid: azure.mgmt.mobilenetwork.models.ReinstallRequired
+    - name: Resource
+      no-loc:
+      - Resource
+      uid: azure.mgmt.mobilenetwork.models.Resource
+    - name: RoutingInfoListResult
+      no-loc:
+      - RoutingInfoListResult
+      uid: azure.mgmt.mobilenetwork.models.RoutingInfoListResult
+    - name: RoutingInfoModel
+      no-loc:
+      - RoutingInfoModel
+      uid: azure.mgmt.mobilenetwork.models.RoutingInfoModel
+    - name: RrcEstablishmentCause
+      no-loc:
+      - RrcEstablishmentCause
+      uid: azure.mgmt.mobilenetwork.models.RrcEstablishmentCause
+    - name: SdfDirection
+      no-loc:
+      - SdfDirection
+      uid: azure.mgmt.mobilenetwork.models.SdfDirection
+    - name: Service
+      no-loc:
+      - Service
+      uid: azure.mgmt.mobilenetwork.models.Service
+    - name: ServiceDataFlowTemplate
+      no-loc:
+      - ServiceDataFlowTemplate
+      uid: azure.mgmt.mobilenetwork.models.ServiceDataFlowTemplate
+    - name: ServiceListResult
+      no-loc:
+      - ServiceListResult
+      uid: azure.mgmt.mobilenetwork.models.ServiceListResult
+    - name: ServiceResourceId
+      no-loc:
+      - ServiceResourceId
+      uid: azure.mgmt.mobilenetwork.models.ServiceResourceId
+    - name: SignalingConfiguration
+      no-loc:
+      - SignalingConfiguration
+      uid: azure.mgmt.mobilenetwork.models.SignalingConfiguration
+    - name: Sim
+      no-loc:
+      - Sim
+      uid: azure.mgmt.mobilenetwork.models.Sim
+    - name: SimClone
+      no-loc:
+      - SimClone
+      uid: azure.mgmt.mobilenetwork.models.SimClone
+    - name: SimDeleteList
+      no-loc:
+      - SimDeleteList
+      uid: azure.mgmt.mobilenetwork.models.SimDeleteList
+    - name: SimGroup
+      no-loc:
+      - SimGroup
+      uid: azure.mgmt.mobilenetwork.models.SimGroup
+    - name: SimGroupListResult
+      no-loc:
+      - SimGroupListResult
+      uid: azure.mgmt.mobilenetwork.models.SimGroupListResult
+    - name: SimGroupResourceId
+      no-loc:
+      - SimGroupResourceId
+      uid: azure.mgmt.mobilenetwork.models.SimGroupResourceId
+    - name: SimListResult
+      no-loc:
+      - SimListResult
+      uid: azure.mgmt.mobilenetwork.models.SimListResult
+    - name: SimMove
+      no-loc:
+      - SimMove
+      uid: azure.mgmt.mobilenetwork.models.SimMove
+    - name: SimNameAndEncryptedProperties
+      no-loc:
+      - SimNameAndEncryptedProperties
+      uid: azure.mgmt.mobilenetwork.models.SimNameAndEncryptedProperties
+    - name: SimNameAndProperties
+      no-loc:
+      - SimNameAndProperties
+      uid: azure.mgmt.mobilenetwork.models.SimNameAndProperties
+    - name: SimPolicy
+      no-loc:
+      - SimPolicy
+      uid: azure.mgmt.mobilenetwork.models.SimPolicy
+    - name: SimPolicyListResult
+      no-loc:
+      - SimPolicyListResult
+      uid: azure.mgmt.mobilenetwork.models.SimPolicyListResult
+    - name: SimPolicyResourceId
+      no-loc:
+      - SimPolicyResourceId
+      uid: azure.mgmt.mobilenetwork.models.SimPolicyResourceId
+    - name: SimPropertiesFormat
+      no-loc:
+      - SimPropertiesFormat
+      uid: azure.mgmt.mobilenetwork.models.SimPropertiesFormat
+    - name: SimState
+      no-loc:
+      - SimState
+      uid: azure.mgmt.mobilenetwork.models.SimState
+    - name: SimStaticIpProperties
+      no-loc:
+      - SimStaticIpProperties
+      uid: azure.mgmt.mobilenetwork.models.SimStaticIpProperties
+    - name: SimStaticIpPropertiesStaticIp
+      no-loc:
+      - SimStaticIpPropertiesStaticIp
+      uid: azure.mgmt.mobilenetwork.models.SimStaticIpPropertiesStaticIp
+    - name: SimUploadList
+      no-loc:
+      - SimUploadList
+      uid: azure.mgmt.mobilenetwork.models.SimUploadList
+    - name: Site
+      no-loc:
+      - Site
+      uid: azure.mgmt.mobilenetwork.models.Site
+    - name: SiteDeletePacketCore
+      no-loc:
+      - SiteDeletePacketCore
+      uid: azure.mgmt.mobilenetwork.models.SiteDeletePacketCore
+    - name: SiteListResult
+      no-loc:
+      - SiteListResult
+      uid: azure.mgmt.mobilenetwork.models.SiteListResult
+    - name: SiteProvisioningState
+      no-loc:
+      - SiteProvisioningState
+      uid: azure.mgmt.mobilenetwork.models.SiteProvisioningState
+    - name: SiteResourceId
+      no-loc:
+      - SiteResourceId
+      uid: azure.mgmt.mobilenetwork.models.SiteResourceId
+    - name: Slice
+      no-loc:
+      - Slice
+      uid: azure.mgmt.mobilenetwork.models.Slice
+    - name: SliceConfiguration
+      no-loc:
+      - SliceConfiguration
+      uid: azure.mgmt.mobilenetwork.models.SliceConfiguration
+    - name: SliceListResult
+      no-loc:
+      - SliceListResult
+      uid: azure.mgmt.mobilenetwork.models.SliceListResult
+    - name: SliceResourceId
+      no-loc:
+      - SliceResourceId
+      uid: azure.mgmt.mobilenetwork.models.SliceResourceId
+    - name: Snssai
+      no-loc:
+      - Snssai
+      uid: azure.mgmt.mobilenetwork.models.Snssai
+    - name: SubResource
+      no-loc:
+      - SubResource
+      uid: azure.mgmt.mobilenetwork.models.SubResource
+    - name: SystemData
+      no-loc:
+      - SystemData
+      uid: azure.mgmt.mobilenetwork.models.SystemData
+    - name: TagsObject
+      no-loc:
+      - TagsObject
+      uid: azure.mgmt.mobilenetwork.models.TagsObject
+    - name: TrackedResource
+      no-loc:
+      - TrackedResource
+      uid: azure.mgmt.mobilenetwork.models.TrackedResource
+    - name: TrafficControlPermission
+      no-loc:
+      - TrafficControlPermission
+      uid: azure.mgmt.mobilenetwork.models.TrafficControlPermission
+    - name: UeInfo
+      no-loc:
+      - UeInfo
+      uid: azure.mgmt.mobilenetwork.models.UeInfo
+    - name: UeInfo4G
+      no-loc:
+      - UeInfo4G
+      uid: azure.mgmt.mobilenetwork.models.UeInfo4G
+    - name: UeInfo5G
+      no-loc:
+      - UeInfo5G
+      uid: azure.mgmt.mobilenetwork.models.UeInfo5G
+    - name: UeInfoList
+      no-loc:
+      - UeInfoList
+      uid: azure.mgmt.mobilenetwork.models.UeInfoList
+    - name: UeQOSFlow
+      no-loc:
+      - UeQOSFlow
+      uid: azure.mgmt.mobilenetwork.models.UeQOSFlow
+    - name: UeSessionInfo4G
+      no-loc:
+      - UeSessionInfo4G
+      uid: azure.mgmt.mobilenetwork.models.UeSessionInfo4G
+    - name: UeSessionInfo5G
+      no-loc:
+      - UeSessionInfo5G
+      uid: azure.mgmt.mobilenetwork.models.UeSessionInfo5G
+    - name: UeState
+      no-loc:
+      - UeState
+      uid: azure.mgmt.mobilenetwork.models.UeState
+    - name: UeUsageSetting
+      no-loc:
+      - UeUsageSetting
+      uid: azure.mgmt.mobilenetwork.models.UeUsageSetting
+    - name: UserAssignedIdentity
+      no-loc:
+      - UserAssignedIdentity
+      uid: azure.mgmt.mobilenetwork.models.UserAssignedIdentity
+    - name: UserConsentConfiguration
+      no-loc:
+      - UserConsentConfiguration
+      uid: azure.mgmt.mobilenetwork.models.UserConsentConfiguration
+    - name: UserPlaneDataRoutesItem
+      no-loc:
+      - UserPlaneDataRoutesItem
+      uid: azure.mgmt.mobilenetwork.models.UserPlaneDataRoutesItem
+    - name: VersionState
+      no-loc:
+      - VersionState
+      uid: azure.mgmt.mobilenetwork.models.VersionState
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.mobilenetwork.operations
+    - name: AttachedDataNetworksOperations
+      no-loc:
+      - AttachedDataNetworksOperations
+      uid: azure.mgmt.mobilenetwork.operations.AttachedDataNetworksOperations
+    - name: DataNetworksOperations
+      no-loc:
+      - DataNetworksOperations
+      uid: azure.mgmt.mobilenetwork.operations.DataNetworksOperations
+    - name: DiagnosticsPackagesOperations
+      no-loc:
+      - DiagnosticsPackagesOperations
+      uid: azure.mgmt.mobilenetwork.operations.DiagnosticsPackagesOperations
+    - name: ExtendedUeInformationOperations
+      no-loc:
+      - ExtendedUeInformationOperations
+      uid: azure.mgmt.mobilenetwork.operations.ExtendedUeInformationOperations
+    - name: MobileNetworksOperations
+      no-loc:
+      - MobileNetworksOperations
+      uid: azure.mgmt.mobilenetwork.operations.MobileNetworksOperations
+    - name: Operations
+      no-loc:
+      - Operations
+      uid: azure.mgmt.mobilenetwork.operations.Operations
+    - name: PacketCapturesOperations
+      no-loc:
+      - PacketCapturesOperations
+      uid: azure.mgmt.mobilenetwork.operations.PacketCapturesOperations
+    - name: PacketCoreControlPlaneVersionsOperations
+      no-loc:
+      - PacketCoreControlPlaneVersionsOperations
+      uid: azure.mgmt.mobilenetwork.operations.PacketCoreControlPlaneVersionsOperations
+    - name: PacketCoreControlPlanesOperations
+      no-loc:
+      - PacketCoreControlPlanesOperations
+      uid: azure.mgmt.mobilenetwork.operations.PacketCoreControlPlanesOperations
+    - name: PacketCoreDataPlanesOperations
+      no-loc:
+      - PacketCoreDataPlanesOperations
+      uid: azure.mgmt.mobilenetwork.operations.PacketCoreDataPlanesOperations
+    - name: RoutingInfoOperations
+      no-loc:
+      - RoutingInfoOperations
+      uid: azure.mgmt.mobilenetwork.operations.RoutingInfoOperations
+    - name: ServicesOperations
+      no-loc:
+      - ServicesOperations
+      uid: azure.mgmt.mobilenetwork.operations.ServicesOperations
+    - name: SimGroupsOperations
+      no-loc:
+      - SimGroupsOperations
+      uid: azure.mgmt.mobilenetwork.operations.SimGroupsOperations
+    - name: SimPoliciesOperations
+      no-loc:
+      - SimPoliciesOperations
+      uid: azure.mgmt.mobilenetwork.operations.SimPoliciesOperations
+    - name: SimsOperations
+      no-loc:
+      - SimsOperations
+      uid: azure.mgmt.mobilenetwork.operations.SimsOperations
+    - name: SitesOperations
+      no-loc:
+      - SitesOperations
+      uid: azure.mgmt.mobilenetwork.operations.SitesOperations
+    - name: SlicesOperations
+      no-loc:
+      - SlicesOperations
+      uid: azure.mgmt.mobilenetwork.operations.SlicesOperations
+    - name: UeInformationOperations
+      no-loc:
+      - UeInformationOperations
+      uid: azure.mgmt.mobilenetwork.operations.UeInformationOperations
+    name: operations
+    no-loc:
+    - operations
+  - name: MobileNetworkManagementClient
+    no-loc:
+    - MobileNetworkManagementClient
+    uid: azure.mgmt.mobilenetwork.MobileNetworkManagementClient
+  name: azure.mgmt.mobilenetwork
+  no-loc:
+  - azure.mgmt.mobilenetwork
 - items:
   - name: Overview
     uid: azure.mgmt.networkanalytics

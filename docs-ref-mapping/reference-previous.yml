@@ -2,7 +2,7 @@
   landingPageType: Root
   expanded: false
   items:
-  - name: Agrifood
+  - name: AgriFood
     href: ~/docs-ref-services/legacy/agrifood.md
     landingPageType: Service
     items:
@@ -130,6 +130,16 @@
       href: ~/docs-ref-services/legacy/graphrbac-readme.md
       children:
       - azure.graphrbac
+  - name: HDInsight Containers
+    href: ~/docs-ref-services/legacy/hdinsight-containers.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - HDInsight Containers (deprecated)
+        href: ~/docs-ref-services/legacy/mgmt-hdinsightcontainers-readme.md
+        children:
+        - azure.mgmt.hdinsightcontainers
   - name: IoT
     href: ~/docs-ref-services/legacy/iot.md
     landingPageType: Service
@@ -182,6 +192,16 @@
       href: ~/docs-ref-services/legacy/ai-metricsadvisor-readme.md
       children:
       - azure.ai.metricsadvisor
+  - name: Mobile Network
+    href: ~/docs-ref-services/legacy/mobile-network.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Mobile Network (deprecated)
+        children:
+        - azure.mgmt.mobilenetwork
+        landingPageType: Service
   - name: Network Analytics
     href: ~/docs-ref-services/legacy/network-analytics.md
     landingPageType: Service
