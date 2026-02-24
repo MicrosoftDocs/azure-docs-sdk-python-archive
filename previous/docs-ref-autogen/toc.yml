@@ -21652,6 +21652,200 @@
   - azure.mgmt.media
 - items:
   - name: Overview
+    uid: azure.mgmt.mixedreality
+  - items:
+    - name: Overview
+      uid: azure.mgmt.mixedreality.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.mixedreality.aio.operations
+      - name: MixedRealityClientOperationsMixin
+        no-loc:
+        - MixedRealityClientOperationsMixin
+        uid: azure.mgmt.mixedreality.aio.operations.MixedRealityClientOperationsMixin
+      - name: ObjectAnchorsAccountsOperations
+        no-loc:
+        - ObjectAnchorsAccountsOperations
+        uid: azure.mgmt.mixedreality.aio.operations.ObjectAnchorsAccountsOperations
+      - name: Operations
+        no-loc:
+        - Operations
+        uid: azure.mgmt.mixedreality.aio.operations.Operations
+      - name: RemoteRenderingAccountsOperations
+        no-loc:
+        - RemoteRenderingAccountsOperations
+        uid: azure.mgmt.mixedreality.aio.operations.RemoteRenderingAccountsOperations
+      - name: SpatialAnchorsAccountsOperations
+        no-loc:
+        - SpatialAnchorsAccountsOperations
+        uid: azure.mgmt.mixedreality.aio.operations.SpatialAnchorsAccountsOperations
+      name: operations
+      no-loc:
+      - operations
+    - name: MixedRealityClient
+      no-loc:
+      - MixedRealityClient
+      uid: azure.mgmt.mixedreality.aio.MixedRealityClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.mixedreality.models
+    - name: AccountKeyRegenerateRequest
+      no-loc:
+      - AccountKeyRegenerateRequest
+      uid: azure.mgmt.mixedreality.models.AccountKeyRegenerateRequest
+    - name: AccountKeys
+      no-loc:
+      - AccountKeys
+      uid: azure.mgmt.mixedreality.models.AccountKeys
+    - name: CheckNameAvailabilityRequest
+      no-loc:
+      - CheckNameAvailabilityRequest
+      uid: azure.mgmt.mixedreality.models.CheckNameAvailabilityRequest
+    - name: CheckNameAvailabilityResponse
+      no-loc:
+      - CheckNameAvailabilityResponse
+      uid: azure.mgmt.mixedreality.models.CheckNameAvailabilityResponse
+    - name: CloudErrorBody
+      no-loc:
+      - CloudErrorBody
+      uid: azure.mgmt.mixedreality.models.CloudErrorBody
+    - name: CreatedByType
+      no-loc:
+      - CreatedByType
+      uid: azure.mgmt.mixedreality.models.CreatedByType
+    - name: Identity
+      no-loc:
+      - Identity
+      uid: azure.mgmt.mixedreality.models.Identity
+    - name: LogSpecification
+      no-loc:
+      - LogSpecification
+      uid: azure.mgmt.mixedreality.models.LogSpecification
+    - name: MetricDimension
+      no-loc:
+      - MetricDimension
+      uid: azure.mgmt.mixedreality.models.MetricDimension
+    - name: MetricSpecification
+      no-loc:
+      - MetricSpecification
+      uid: azure.mgmt.mixedreality.models.MetricSpecification
+    - name: NameUnavailableReason
+      no-loc:
+      - NameUnavailableReason
+      uid: azure.mgmt.mixedreality.models.NameUnavailableReason
+    - name: ObjectAnchorsAccount
+      no-loc:
+      - ObjectAnchorsAccount
+      uid: azure.mgmt.mixedreality.models.ObjectAnchorsAccount
+    - name: ObjectAnchorsAccountIdentity
+      no-loc:
+      - ObjectAnchorsAccountIdentity
+      uid: azure.mgmt.mixedreality.models.ObjectAnchorsAccountIdentity
+    - name: ObjectAnchorsAccountPage
+      no-loc:
+      - ObjectAnchorsAccountPage
+      uid: azure.mgmt.mixedreality.models.ObjectAnchorsAccountPage
+    - name: Operation
+      no-loc:
+      - Operation
+      uid: azure.mgmt.mixedreality.models.Operation
+    - name: OperationDisplay
+      no-loc:
+      - OperationDisplay
+      uid: azure.mgmt.mixedreality.models.OperationDisplay
+    - name: OperationPage
+      no-loc:
+      - OperationPage
+      uid: azure.mgmt.mixedreality.models.OperationPage
+    - name: OperationProperties
+      no-loc:
+      - OperationProperties
+      uid: azure.mgmt.mixedreality.models.OperationProperties
+    - name: RemoteRenderingAccount
+      no-loc:
+      - RemoteRenderingAccount
+      uid: azure.mgmt.mixedreality.models.RemoteRenderingAccount
+    - name: RemoteRenderingAccountPage
+      no-loc:
+      - RemoteRenderingAccountPage
+      uid: azure.mgmt.mixedreality.models.RemoteRenderingAccountPage
+    - name: Resource
+      no-loc:
+      - Resource
+      uid: azure.mgmt.mixedreality.models.Resource
+    - name: Serial
+      no-loc:
+      - Serial
+      uid: azure.mgmt.mixedreality.models.Serial
+    - name: ServiceSpecification
+      no-loc:
+      - ServiceSpecification
+      uid: azure.mgmt.mixedreality.models.ServiceSpecification
+    - name: Sku
+      no-loc:
+      - Sku
+      uid: azure.mgmt.mixedreality.models.Sku
+    - name: SkuTier
+      no-loc:
+      - SkuTier
+      uid: azure.mgmt.mixedreality.models.SkuTier
+    - name: SpatialAnchorsAccount
+      no-loc:
+      - SpatialAnchorsAccount
+      uid: azure.mgmt.mixedreality.models.SpatialAnchorsAccount
+    - name: SpatialAnchorsAccountPage
+      no-loc:
+      - SpatialAnchorsAccountPage
+      uid: azure.mgmt.mixedreality.models.SpatialAnchorsAccountPage
+    - name: SystemData
+      no-loc:
+      - SystemData
+      uid: azure.mgmt.mixedreality.models.SystemData
+    - name: TrackedResource
+      no-loc:
+      - TrackedResource
+      uid: azure.mgmt.mixedreality.models.TrackedResource
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.mixedreality.operations
+    - name: MixedRealityClientOperationsMixin
+      no-loc:
+      - MixedRealityClientOperationsMixin
+      uid: azure.mgmt.mixedreality.operations.MixedRealityClientOperationsMixin
+    - name: ObjectAnchorsAccountsOperations
+      no-loc:
+      - ObjectAnchorsAccountsOperations
+      uid: azure.mgmt.mixedreality.operations.ObjectAnchorsAccountsOperations
+    - name: Operations
+      no-loc:
+      - Operations
+      uid: azure.mgmt.mixedreality.operations.Operations
+    - name: RemoteRenderingAccountsOperations
+      no-loc:
+      - RemoteRenderingAccountsOperations
+      uid: azure.mgmt.mixedreality.operations.RemoteRenderingAccountsOperations
+    - name: SpatialAnchorsAccountsOperations
+      no-loc:
+      - SpatialAnchorsAccountsOperations
+      uid: azure.mgmt.mixedreality.operations.SpatialAnchorsAccountsOperations
+    name: operations
+    no-loc:
+    - operations
+  - name: MixedRealityClient
+    no-loc:
+    - MixedRealityClient
+    uid: azure.mgmt.mixedreality.MixedRealityClient
+  name: azure.mgmt.mixedreality
+  no-loc:
+  - azure.mgmt.mixedreality
+- items:
+  - name: Overview
     uid: azure.mgmt.mobilenetwork
   - items:
     - name: Overview
@@ -24844,6 +25038,26 @@
   name: azure.mgmt.workloadmonitor
   no-loc:
   - azure.mgmt.workloadmonitor
+- items:
+  - name: Overview
+    uid: azure.mixedreality.authentication
+  - items:
+    - name: Overview
+      uid: azure.mixedreality.authentication.aio
+    - name: MixedRealityStsClient
+      no-loc:
+      - MixedRealityStsClient
+      uid: azure.mixedreality.authentication.aio.MixedRealityStsClient
+    name: aio
+    no-loc:
+    - aio
+  - name: MixedRealityStsClient
+    no-loc:
+    - MixedRealityStsClient
+    uid: azure.mixedreality.authentication.MixedRealityStsClient
+  name: azure.mixedreality.authentication
+  no-loc:
+  - azure.mixedreality.authentication
 - items:
   - name: Overview
     uid: azure.mixedreality.remoterendering

@@ -12,6 +12,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-advisor-readme.md
         children:
         - azure.mgmt.advisor
+  - name: Agricultureplatform
+    href: ~/docs-ref-services/{moniker}/agricultureplatform.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Agricultureplatform
+        href: ~/docs-ref-services/{moniker}/mgmt-agricultureplatform-readme.md
+        children:
+        - azure.mgmt.agricultureplatform
   - name: AgriFood
     href: ~/docs-ref-services/{moniker}/agrifood.md
     landingPageType: Service
@@ -148,6 +158,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-arizeaiobservabilityeval-readme.md
         children:
         - azure.mgmt.arizeaiobservabilityeval
+  - name: Artifactsigning
+    href: ~/docs-ref-services/{moniker}/artifactsigning.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Artifactsigning
+        href: ~/docs-ref-services/{moniker}/mgmt-artifactsigning-readme.md
+        children:
+        - azure.mgmt.artifactsigning
   - name: Astro
     href: ~/docs-ref-services/{moniker}/astro.md
     landingPageType: Service
@@ -612,6 +632,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-computeschedule-readme.md
         children:
         - azure.mgmt.computeschedule
+  - name: Computebulkactions
+    href: ~/docs-ref-services/{moniker}/computebulkactions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Computebulkactions
+        href: ~/docs-ref-services/{moniker}/mgmt-computebulkactions-readme.md
+        children:
+        - azure.mgmt.computebulkactions
   - name: Computelimit
     href: ~/docs-ref-services/{moniker}/computelimit.md
     landingPageType: Service
@@ -770,6 +800,14 @@
         href: ~/docs-ref-services/{moniker}/mgmt-cdn-readme.md
         children:
         - azure.mgmt.cdn
+  - name: Content Understanding
+    href: ~/docs-ref-services/{moniker}/content-understanding.md
+    landingPageType: Service
+    items:
+    - name: Azure Content Understanding in Foundry Tools
+      href: ~/docs-ref-services/{moniker}/ai-contentunderstanding-readme.md
+      children:
+      - azure.ai.contentunderstanding
   - name: Core
     href: ~/docs-ref-services/{moniker}/core.md
     landingPageType: Service
@@ -1116,6 +1154,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-edgezones-readme.md
         children:
         - azure.mgmt.edgezones
+  - name: Edgeactions
+    href: ~/docs-ref-services/{moniker}/edgeactions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Edgeactions
+        href: ~/docs-ref-services/{moniker}/mgmt-edgeactions-readme.md
+        children:
+        - azure.mgmt.edgeactions
   - name: Education
     href: ~/docs-ref-services/{moniker}/education.md
     landingPageType: Service
@@ -1770,6 +1818,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-managedservices-readme.md
         children:
         - azure.mgmt.managedservices
+  - name: Managedops
+    href: ~/docs-ref-services/{moniker}/managedops.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Managedops
+        href: ~/docs-ref-services/{moniker}/mgmt-managedops-readme.md
+        children:
+        - azure.mgmt.managedops
   - name: Management Groups
     href: ~/docs-ref-services/{moniker}/management-groups.md
     landingPageType: Service
@@ -1874,13 +1932,13 @@
     href: ~/docs-ref-services/{moniker}/mixed-reality.md
     landingPageType: Service
     items:
-    - name: Mixed Reality Authentication
+    - name: Mixed Reality Authentication (deprecated)
       href: ~/docs-ref-services/{moniker}/mixedreality-authentication-readme.md
       children:
       - azure.mixedreality.authentication
     - name: Management
       items:
-      - name: Resource Management - Mixed Reality
+      - name: Resource Management - Mixed Reality (deprecated)
         href: ~/docs-ref-services/{moniker}/mgmt-mixedreality-readme.md
         children:
         - azure.mgmt.mixedreality
@@ -2434,6 +2492,26 @@
         href: ~/docs-ref-services/{moniker}/mgmt-resource-bicep-readme.md
         children:
         - azure.mgmt.resource.bicep
+  - name: Resource-Changes
+    href: ~/docs-ref-services/{moniker}/resource-changes.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Changes
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-changes-readme.md
+        children:
+        - azure.mgmt.resource.changes
+  - name: Resource-Databoundaries
+    href: ~/docs-ref-services/{moniker}/resource-databoundaries.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Databoundaries
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-databoundaries-readme.md
+        children:
+        - azure.mgmt.resource.databoundaries
   - name: Resource-Deployments
     href: ~/docs-ref-services/{moniker}/resource-deployments.md
     landingPageType: Service
@@ -2464,6 +2542,76 @@
         href: ~/docs-ref-services/{moniker}/mgmt-resource-deploymentstacks-readme.md
         children:
         - azure.mgmt.resource.deploymentstacks
+  - name: Resource-Features
+    href: ~/docs-ref-services/{moniker}/resource-features.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Features
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-features-readme.md
+        children:
+        - azure.mgmt.resource.features
+  - name: Resource-Links
+    href: ~/docs-ref-services/{moniker}/resource-links.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Links
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-links-readme.md
+        children:
+        - azure.mgmt.resource.links
+  - name: Resource-Locks
+    href: ~/docs-ref-services/{moniker}/resource-locks.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Locks
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-locks-readme.md
+        children:
+        - azure.mgmt.resource.locks
+  - name: Resource-Managedapplications
+    href: ~/docs-ref-services/{moniker}/resource-managedapplications.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Managedapplications
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-managedapplications-readme.md
+        children:
+        - azure.mgmt.resource.managedapplications
+  - name: Resource-Policy
+    href: ~/docs-ref-services/{moniker}/resource-policy.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Policy
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-policy-readme.md
+        children:
+        - azure.mgmt.resource.policy
+  - name: Resource-Privatelinks
+    href: ~/docs-ref-services/{moniker}/resource-privatelinks.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Privatelinks
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-privatelinks-readme.md
+        children:
+        - azure.mgmt.resource.privatelinks
+  - name: Resource-Subscriptions
+    href: ~/docs-ref-services/{moniker}/resource-subscriptions.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Resource-Subscriptions
+        href: ~/docs-ref-services/{moniker}/mgmt-resource-subscriptions-readme.md
+        children:
+        - azure.mgmt.resource.subscriptions
   - name: Resource-Templatespecs
     href: ~/docs-ref-services/{moniker}/resource-templatespecs.md
     landingPageType: Service
