@@ -2,7 +2,7 @@
   landingPageType: Root
   expanded: false
   items:
-  - name: AgriFood
+  - name: Agrifood
     href: ~/docs-ref-services/legacy/agrifood.md
     landingPageType: Service
     items:
@@ -216,6 +216,16 @@
         children:
         - azure.mgmt.mobilenetwork
         landingPageType: Service
+  - name: Neon Postgres
+    href: ~/docs-ref-services/legacy/neon-postgres.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Neon Postgres (deprecated)
+        href: ~/docs-ref-services/legacy/mgmt-neonpostgres-readme.md
+        children:
+        - azure.mgmt.neonpostgres
   - name: Network Analytics
     href: ~/docs-ref-services/legacy/network-analytics.md
     landingPageType: Service

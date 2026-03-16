@@ -22628,6 +22628,280 @@
   - azure.mgmt.mobilenetwork
 - items:
   - name: Overview
+    uid: azure.mgmt.neonpostgres
+  - items:
+    - name: Overview
+      uid: azure.mgmt.neonpostgres.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.neonpostgres.aio.operations
+      - name: BranchesOperations
+        no-loc:
+        - BranchesOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.BranchesOperations
+      - name: ComputesOperations
+        no-loc:
+        - ComputesOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.ComputesOperations
+      - name: EndpointsOperations
+        no-loc:
+        - EndpointsOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.EndpointsOperations
+      - name: ModelsOperations
+        no-loc:
+        - ModelsOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.ModelsOperations
+      - name: NeonDatabasesOperations
+        no-loc:
+        - NeonDatabasesOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.NeonDatabasesOperations
+      - name: NeonRolesOperations
+        no-loc:
+        - NeonRolesOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.NeonRolesOperations
+      - name: Operations
+        no-loc:
+        - Operations
+        uid: azure.mgmt.neonpostgres.aio.operations.Operations
+      - name: OrganizationsOperations
+        no-loc:
+        - OrganizationsOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.OrganizationsOperations
+      - name: ProjectsOperations
+        no-loc:
+        - ProjectsOperations
+        uid: azure.mgmt.neonpostgres.aio.operations.ProjectsOperations
+      name: operations
+      no-loc:
+      - operations
+    - name: NeonPostgresMgmtClient
+      no-loc:
+      - NeonPostgresMgmtClient
+      uid: azure.mgmt.neonpostgres.aio.NeonPostgresMgmtClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.neonpostgres.models
+    - name: ActionType
+      no-loc:
+      - ActionType
+      uid: azure.mgmt.neonpostgres.models.ActionType
+    - name: Attributes
+      no-loc:
+      - Attributes
+      uid: azure.mgmt.neonpostgres.models.Attributes
+    - name: Branch
+      no-loc:
+      - Branch
+      uid: azure.mgmt.neonpostgres.models.Branch
+    - name: BranchProperties
+      no-loc:
+      - BranchProperties
+      uid: azure.mgmt.neonpostgres.models.BranchProperties
+    - name: CompanyDetails
+      no-loc:
+      - CompanyDetails
+      uid: azure.mgmt.neonpostgres.models.CompanyDetails
+    - name: Compute
+      no-loc:
+      - Compute
+      uid: azure.mgmt.neonpostgres.models.Compute
+    - name: ComputeProperties
+      no-loc:
+      - ComputeProperties
+      uid: azure.mgmt.neonpostgres.models.ComputeProperties
+    - name: ConnectionUriProperties
+      no-loc:
+      - ConnectionUriProperties
+      uid: azure.mgmt.neonpostgres.models.ConnectionUriProperties
+    - name: CreatedByType
+      no-loc:
+      - CreatedByType
+      uid: azure.mgmt.neonpostgres.models.CreatedByType
+    - name: DefaultEndpointSettings
+      no-loc:
+      - DefaultEndpointSettings
+      uid: azure.mgmt.neonpostgres.models.DefaultEndpointSettings
+    - name: Endpoint
+      no-loc:
+      - Endpoint
+      uid: azure.mgmt.neonpostgres.models.Endpoint
+    - name: EndpointProperties
+      no-loc:
+      - EndpointProperties
+      uid: azure.mgmt.neonpostgres.models.EndpointProperties
+    - name: EndpointType
+      no-loc:
+      - EndpointType
+      uid: azure.mgmt.neonpostgres.models.EndpointType
+    - name: ErrorAdditionalInfo
+      no-loc:
+      - ErrorAdditionalInfo
+      uid: azure.mgmt.neonpostgres.models.ErrorAdditionalInfo
+    - name: ErrorDetail
+      no-loc:
+      - ErrorDetail
+      uid: azure.mgmt.neonpostgres.models.ErrorDetail
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.mgmt.neonpostgres.models.ErrorResponse
+    - name: MarketplaceDetails
+      no-loc:
+      - MarketplaceDetails
+      uid: azure.mgmt.neonpostgres.models.MarketplaceDetails
+    - name: MarketplaceSubscriptionStatus
+      no-loc:
+      - MarketplaceSubscriptionStatus
+      uid: azure.mgmt.neonpostgres.models.MarketplaceSubscriptionStatus
+    - name: NeonDatabase
+      no-loc:
+      - NeonDatabase
+      uid: azure.mgmt.neonpostgres.models.NeonDatabase
+    - name: NeonDatabaseProperties
+      no-loc:
+      - NeonDatabaseProperties
+      uid: azure.mgmt.neonpostgres.models.NeonDatabaseProperties
+    - name: NeonRole
+      no-loc:
+      - NeonRole
+      uid: azure.mgmt.neonpostgres.models.NeonRole
+    - name: NeonRoleProperties
+      no-loc:
+      - NeonRoleProperties
+      uid: azure.mgmt.neonpostgres.models.NeonRoleProperties
+    - name: OfferDetails
+      no-loc:
+      - OfferDetails
+      uid: azure.mgmt.neonpostgres.models.OfferDetails
+    - name: Operation
+      no-loc:
+      - Operation
+      uid: azure.mgmt.neonpostgres.models.Operation
+    - name: OperationDisplay
+      no-loc:
+      - OperationDisplay
+      uid: azure.mgmt.neonpostgres.models.OperationDisplay
+    - name: OrganizationProperties
+      no-loc:
+      - OrganizationProperties
+      uid: azure.mgmt.neonpostgres.models.OrganizationProperties
+    - name: OrganizationResource
+      no-loc:
+      - OrganizationResource
+      uid: azure.mgmt.neonpostgres.models.OrganizationResource
+    - name: Origin
+      no-loc:
+      - Origin
+      uid: azure.mgmt.neonpostgres.models.Origin
+    - name: PartnerOrganizationProperties
+      no-loc:
+      - PartnerOrganizationProperties
+      uid: azure.mgmt.neonpostgres.models.PartnerOrganizationProperties
+    - name: PgVersion
+      no-loc:
+      - PgVersion
+      uid: azure.mgmt.neonpostgres.models.PgVersion
+    - name: PgVersionsResult
+      no-loc:
+      - PgVersionsResult
+      uid: azure.mgmt.neonpostgres.models.PgVersionsResult
+    - name: Project
+      no-loc:
+      - Project
+      uid: azure.mgmt.neonpostgres.models.Project
+    - name: ProjectProperties
+      no-loc:
+      - ProjectProperties
+      uid: azure.mgmt.neonpostgres.models.ProjectProperties
+    - name: ProxyResource
+      no-loc:
+      - ProxyResource
+      uid: azure.mgmt.neonpostgres.models.ProxyResource
+    - name: Resource
+      no-loc:
+      - Resource
+      uid: azure.mgmt.neonpostgres.models.Resource
+    - name: ResourceProvisioningState
+      no-loc:
+      - ResourceProvisioningState
+      uid: azure.mgmt.neonpostgres.models.ResourceProvisioningState
+    - name: SingleSignOnProperties
+      no-loc:
+      - SingleSignOnProperties
+      uid: azure.mgmt.neonpostgres.models.SingleSignOnProperties
+    - name: SingleSignOnStates
+      no-loc:
+      - SingleSignOnStates
+      uid: azure.mgmt.neonpostgres.models.SingleSignOnStates
+    - name: SystemData
+      no-loc:
+      - SystemData
+      uid: azure.mgmt.neonpostgres.models.SystemData
+    - name: TrackedResource
+      no-loc:
+      - TrackedResource
+      uid: azure.mgmt.neonpostgres.models.TrackedResource
+    - name: UserDetails
+      no-loc:
+      - UserDetails
+      uid: azure.mgmt.neonpostgres.models.UserDetails
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.neonpostgres.operations
+    - name: BranchesOperations
+      no-loc:
+      - BranchesOperations
+      uid: azure.mgmt.neonpostgres.operations.BranchesOperations
+    - name: ComputesOperations
+      no-loc:
+      - ComputesOperations
+      uid: azure.mgmt.neonpostgres.operations.ComputesOperations
+    - name: EndpointsOperations
+      no-loc:
+      - EndpointsOperations
+      uid: azure.mgmt.neonpostgres.operations.EndpointsOperations
+    - name: ModelsOperations
+      no-loc:
+      - ModelsOperations
+      uid: azure.mgmt.neonpostgres.operations.ModelsOperations
+    - name: NeonDatabasesOperations
+      no-loc:
+      - NeonDatabasesOperations
+      uid: azure.mgmt.neonpostgres.operations.NeonDatabasesOperations
+    - name: NeonRolesOperations
+      no-loc:
+      - NeonRolesOperations
+      uid: azure.mgmt.neonpostgres.operations.NeonRolesOperations
+    - name: Operations
+      no-loc:
+      - Operations
+      uid: azure.mgmt.neonpostgres.operations.Operations
+    - name: OrganizationsOperations
+      no-loc:
+      - OrganizationsOperations
+      uid: azure.mgmt.neonpostgres.operations.OrganizationsOperations
+    - name: ProjectsOperations
+      no-loc:
+      - ProjectsOperations
+      uid: azure.mgmt.neonpostgres.operations.ProjectsOperations
+    name: operations
+    no-loc:
+    - operations
+  - name: NeonPostgresMgmtClient
+    no-loc:
+    - NeonPostgresMgmtClient
+    uid: azure.mgmt.neonpostgres.NeonPostgresMgmtClient
+  name: azure.mgmt.neonpostgres
+  no-loc:
+  - azure.mgmt.neonpostgres
+- items:
+  - name: Overview
     uid: azure.mgmt.networkanalytics
   - items:
     - name: Overview
