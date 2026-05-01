@@ -403,7 +403,7 @@
     - name: AI Agent Server - Core
       href: ~/docs-ref-services/{moniker}/ai-agentserver-core-readme.md
       children:
-      - azure.ai.agentserver
+      - azure.ai.agentserver.core
     - name: Anomaly Detector
       href: ~/docs-ref-services/{moniker}/ai-anomalydetector-readme.md
       children:
@@ -460,10 +460,6 @@
       href: ~/docs-ref-services/{moniker}/ai-textanalytics-authoring-readme.md
       children:
       - azure.ai.textanalytics.authoring
-    - name: Azure AI Transcription
-      href: ~/docs-ref-services/{moniker}/ai-transcription-readme.md
-      children:
-      - azure.ai.transcription
     - name: Document Translation
       href: ~/docs-ref-services/{moniker}/ai-translation-document-readme.md
       children:
@@ -508,7 +504,7 @@
       href: ~/docs-ref-services/{moniker}/cognitiveservices-language-textanalytics-readme.md
       children:
       - azure.cognitiveservices.language.textanalytics
-    - name: Personalizer
+    - name: Personalizer (deprecated)
       href: ~/docs-ref-services/{moniker}/cognitiveservices-personalizer-readme.md
       children:
       - azure.cognitiveservices.personalizer
@@ -3068,6 +3064,14 @@
         href: ~/docs-ref-services/{moniker}/mgmt-trafficmanager-readme.md
         children:
         - azure.mgmt.trafficmanager
+  - name: Transcription
+    href: ~/docs-ref-services/{moniker}/transcription.md
+    landingPageType: Service
+    items:
+    - name: Azure AI Transcription
+      href: ~/docs-ref-services/{moniker}/ai-transcription-readme.md
+      children:
+      - azure.ai.transcription
   - name: Trusted Signing
     href: ~/docs-ref-services/{moniker}/trusted-signing.md
     landingPageType: Service
@@ -3082,12 +3086,48 @@
     href: ~/docs-ref-services/{moniker}/unknown.md
     landingPageType: Service
     items:
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/ai-agentserver-responses-readme.md
+      children:
+      - azure.ai.agentserver
+    - name: unknown
+      href: ~/docs-ref-services/{moniker}/postgresql-auth-readme.md
+      children:
+      - azure_postgresql_auth
     - name: Management
       items:
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-appnetwork-readme.md
+        children:
+        - azure.mgmt.appnetwork
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-certificateregistration-readme.md
+        children:
+        - azure.mgmt.certificateregistration
       - name: unknown
         href: ~/docs-ref-services/{moniker}/mgmt-containerregistrytasks-readme.md
         children:
         - azure.mgmt.containerregistrytasks
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-domainregistration-readme.md
+        children:
+        - azure.mgmt.domainregistration
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-horizondb-readme.md
+        children:
+        - azure.mgmt.horizondb
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-relationships-readme.md
+        children:
+        - azure.mgmt.relationships
+      - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-servicegroups-readme.md
+        children:
+        - azure.mgmt.servicegroups
+  - name: Unknown Service
+    href: ~/docs-ref-services/{moniker}/unknown-service.md
+    landingPageType: Service
+    items: []
   - name: Video Analyzer
     href: ~/docs-ref-services/{moniker}/video-analyzer.md
     landingPageType: Service
