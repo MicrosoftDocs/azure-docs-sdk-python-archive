@@ -1,0 +1,38 @@
+{
+  "Name": "azure-cognitiveservices-personalizer",
+  "Version": "0.1.1",
+  "DevVersion": null,
+  "DirectoryPath": "sdk/cognitiveservices/azure-cognitiveservices-personalizer",
+  "ServiceDirectory": "cognitiveservices",
+  "ReadMePath": "sdk/cognitiveservices/azure-cognitiveservices-personalizer/README.md",
+  "ChangeLogPath": "sdk/cognitiveservices/azure-cognitiveservices-personalizer/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "azure-cognitiveservices-personalizer",
+  "ReleaseStatus": "2026-04-27",
+  "IncludedForValidation": false,
+  "AdditionalValidationPackages": [
+    ""
+  ],
+  "ArtifactDetails": {
+    "name": "azure-cognitiveservices-personalizer",
+    "safeName": "azurecognitiveservicespersonalizer",
+    "triggeringPaths": [
+      "/sdk/cognitiveservices/ci.yml"
+    ]
+  },
+  "CIParameters": {
+    "CIMatrixConfigs": []
+  },
+  "SpecProjectPath": null,
+  "Namespaces": [
+    "azure.cognitiveservices.personalizer"
+  ],
+  "DocsCiConfigProperties": {
+    "package_info": {
+      "prefer_source_distribution": false
+    }
+  },
+  "_DocsOnboardingOrdinal": 0
+}

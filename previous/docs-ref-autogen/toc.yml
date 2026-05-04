@@ -1,5 +1,277 @@
 - items:
   - name: Overview
+    uid: azure.cognitiveservices.personalizer
+  - items:
+    - name: Overview
+      uid: azure.cognitiveservices.personalizer.models
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.error_response
+      - name: ErrorResponse
+        no-loc:
+        - ErrorResponse
+        uid: azure.cognitiveservices.personalizer.models.error_response.ErrorResponse
+      - name: ErrorResponseException
+        no-loc:
+        - ErrorResponseException
+        uid: azure.cognitiveservices.personalizer.models.error_response.ErrorResponseException
+      name: error_response
+      no-loc:
+      - error_response
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.error_response_py3
+      - name: ErrorResponse
+        no-loc:
+        - ErrorResponse
+        uid: azure.cognitiveservices.personalizer.models.error_response_py3.ErrorResponse
+      - name: ErrorResponseException
+        no-loc:
+        - ErrorResponseException
+        uid: azure.cognitiveservices.personalizer.models.error_response_py3.ErrorResponseException
+      name: error_response_py3
+      no-loc:
+      - error_response_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.internal_error
+      - name: InternalError
+        no-loc:
+        - InternalError
+        uid: azure.cognitiveservices.personalizer.models.internal_error.InternalError
+      name: internal_error
+      no-loc:
+      - internal_error
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.internal_error_py3
+      - name: InternalError
+        no-loc:
+        - InternalError
+        uid: azure.cognitiveservices.personalizer.models.internal_error_py3.InternalError
+      name: internal_error_py3
+      no-loc:
+      - internal_error_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.personalizer_client_enums
+      - name: ErrorCode
+        no-loc:
+        - ErrorCode
+        uid: azure.cognitiveservices.personalizer.models.personalizer_client_enums.ErrorCode
+      name: personalizer_client_enums
+      no-loc:
+      - personalizer_client_enums
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.personalizer_error
+      - name: PersonalizerError
+        no-loc:
+        - PersonalizerError
+        uid: azure.cognitiveservices.personalizer.models.personalizer_error.PersonalizerError
+      name: personalizer_error
+      no-loc:
+      - personalizer_error
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.personalizer_error_py3
+      - name: PersonalizerError
+        no-loc:
+        - PersonalizerError
+        uid: azure.cognitiveservices.personalizer.models.personalizer_error_py3.PersonalizerError
+      name: personalizer_error_py3
+      no-loc:
+      - personalizer_error_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.rank_request
+      - name: RankRequest
+        no-loc:
+        - RankRequest
+        uid: azure.cognitiveservices.personalizer.models.rank_request.RankRequest
+      name: rank_request
+      no-loc:
+      - rank_request
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.rank_request_py3
+      - name: RankRequest
+        no-loc:
+        - RankRequest
+        uid: azure.cognitiveservices.personalizer.models.rank_request_py3.RankRequest
+      name: rank_request_py3
+      no-loc:
+      - rank_request_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.rank_response
+      - name: RankResponse
+        no-loc:
+        - RankResponse
+        uid: azure.cognitiveservices.personalizer.models.rank_response.RankResponse
+      name: rank_response
+      no-loc:
+      - rank_response
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.rank_response_py3
+      - name: RankResponse
+        no-loc:
+        - RankResponse
+        uid: azure.cognitiveservices.personalizer.models.rank_response_py3.RankResponse
+      name: rank_response_py3
+      no-loc:
+      - rank_response_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.rankable_action
+      - name: RankableAction
+        no-loc:
+        - RankableAction
+        uid: azure.cognitiveservices.personalizer.models.rankable_action.RankableAction
+      name: rankable_action
+      no-loc:
+      - rankable_action
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.rankable_action_py3
+      - name: RankableAction
+        no-loc:
+        - RankableAction
+        uid: azure.cognitiveservices.personalizer.models.rankable_action_py3.RankableAction
+      name: rankable_action_py3
+      no-loc:
+      - rankable_action_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.ranked_action
+      - name: RankedAction
+        no-loc:
+        - RankedAction
+        uid: azure.cognitiveservices.personalizer.models.ranked_action.RankedAction
+      name: ranked_action
+      no-loc:
+      - ranked_action
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.ranked_action_py3
+      - name: RankedAction
+        no-loc:
+        - RankedAction
+        uid: azure.cognitiveservices.personalizer.models.ranked_action_py3.RankedAction
+      name: ranked_action_py3
+      no-loc:
+      - ranked_action_py3
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.reward_request
+      - name: RewardRequest
+        no-loc:
+        - RewardRequest
+        uid: azure.cognitiveservices.personalizer.models.reward_request.RewardRequest
+      name: reward_request
+      no-loc:
+      - reward_request
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.models.reward_request_py3
+      - name: RewardRequest
+        no-loc:
+        - RewardRequest
+        uid: azure.cognitiveservices.personalizer.models.reward_request_py3.RewardRequest
+      name: reward_request_py3
+      no-loc:
+      - reward_request_py3
+    - name: ErrorCode
+      no-loc:
+      - ErrorCode
+      uid: azure.cognitiveservices.personalizer.models.ErrorCode
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.cognitiveservices.personalizer.models.ErrorResponse
+    - name: ErrorResponseException
+      no-loc:
+      - ErrorResponseException
+      uid: azure.cognitiveservices.personalizer.models.ErrorResponseException
+    - name: InternalError
+      no-loc:
+      - InternalError
+      uid: azure.cognitiveservices.personalizer.models.InternalError
+    - name: PersonalizerError
+      no-loc:
+      - PersonalizerError
+      uid: azure.cognitiveservices.personalizer.models.PersonalizerError
+    - name: RankRequest
+      no-loc:
+      - RankRequest
+      uid: azure.cognitiveservices.personalizer.models.RankRequest
+    - name: RankResponse
+      no-loc:
+      - RankResponse
+      uid: azure.cognitiveservices.personalizer.models.RankResponse
+    - name: RankableAction
+      no-loc:
+      - RankableAction
+      uid: azure.cognitiveservices.personalizer.models.RankableAction
+    - name: RankedAction
+      no-loc:
+      - RankedAction
+      uid: azure.cognitiveservices.personalizer.models.RankedAction
+    - name: RewardRequest
+      no-loc:
+      - RewardRequest
+      uid: azure.cognitiveservices.personalizer.models.RewardRequest
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.cognitiveservices.personalizer.operations
+    - items:
+      - name: Overview
+        uid: azure.cognitiveservices.personalizer.operations.events_operations
+      - name: EventsOperations
+        no-loc:
+        - EventsOperations
+        uid: azure.cognitiveservices.personalizer.operations.events_operations.EventsOperations
+      name: events_operations
+      no-loc:
+      - events_operations
+    - name: EventsOperations
+      no-loc:
+      - EventsOperations
+      uid: azure.cognitiveservices.personalizer.operations.EventsOperations
+    name: operations
+    no-loc:
+    - operations
+  - items:
+    - name: Overview
+      uid: azure.cognitiveservices.personalizer.personalizer_client
+    - name: PersonalizerClient
+      no-loc:
+      - PersonalizerClient
+      uid: azure.cognitiveservices.personalizer.personalizer_client.PersonalizerClient
+    - name: PersonalizerClientConfiguration
+      no-loc:
+      - PersonalizerClientConfiguration
+      uid: azure.cognitiveservices.personalizer.personalizer_client.PersonalizerClientConfiguration
+    name: personalizer_client
+    no-loc:
+    - personalizer_client
+  - name: version
+    no-loc:
+    - version
+    uid: azure.cognitiveservices.personalizer.version
+  - name: PersonalizerClient
+    no-loc:
+    - PersonalizerClient
+    uid: azure.cognitiveservices.personalizer.PersonalizerClient
+  name: azure.cognitiveservices.personalizer
+  no-loc:
+  - azure.cognitiveservices.personalizer
+- items:
+  - name: Overview
     uid: azure.schemaregistry.serializer
   - items:
     - name: Overview

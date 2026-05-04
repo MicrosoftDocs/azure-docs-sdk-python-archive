@@ -86,6 +86,10 @@
       href: ~/docs-ref-services/legacy/cognitiveservices-language-textanalytics-readme.md
       children:
       - azure.cognitiveservices.language.textanalytics
+    - name: Personalizer (deprecated)
+      href: ~/docs-ref-services/legacy/cognitiveservices-personalizer-readme.md
+      children:
+      - azure.cognitiveservices.personalizer
     - name: Computer Vision (deprecated)
       href: ~/docs-ref-services/legacy/cognitiveservices-vision-computervision-readme.md
       children:
