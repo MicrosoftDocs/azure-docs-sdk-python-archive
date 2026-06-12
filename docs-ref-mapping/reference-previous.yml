@@ -346,6 +346,16 @@
       href: ~/docs-ref-services/legacy/cognitiveservices-search-visualsearch-readme.md
       children:
       - azure.cognitiveservices.search.visualsearch
+  - name: Voice Services
+    href: ~/docs-ref-services/legacy/voice-services.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Voice Services (deprecated)
+        children:
+        - azure.mgmt.voiceservices
+        landingPageType: Service
   - name: Workload Monitor
     href: ~/docs-ref-services/legacy/workload-monitor.md
     landingPageType: Service

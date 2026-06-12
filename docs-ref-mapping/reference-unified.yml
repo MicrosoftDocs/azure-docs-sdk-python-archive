@@ -362,16 +362,6 @@
         href: ~/docs-ref-services/{moniker}/mgmt-carbonoptimization-readme.md
         children:
         - azure.mgmt.carbonoptimization
-  - name: Change Analysis
-    href: ~/docs-ref-services/{moniker}/change-analysis.md
-    landingPageType: Service
-    items:
-    - name: Management
-      items:
-      - name: Resource Management - Change Analysis
-        href: ~/docs-ref-services/{moniker}/mgmt-changeanalysis-readme.md
-        children:
-        - azure.mgmt.changeanalysis
   - name: Chaos
     href: ~/docs-ref-services/{moniker}/chaos.md
     landingPageType: Service
@@ -1282,6 +1272,16 @@
       href: ~/docs-ref-services/{moniker}/agrifood-farming-readme.md
       children:
       - azure.agrifood.farming
+  - name: Fileshares
+    href: ~/docs-ref-services/{moniker}/fileshares.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Fileshares
+        href: ~/docs-ref-services/{moniker}/mgmt-fileshares-readme.md
+        children:
+        - azure.mgmt.fileshares
   - name: Fluid Relay
     href: ~/docs-ref-services/{moniker}/fluid-relay.md
     landingPageType: Service
@@ -2450,6 +2450,16 @@
         href: ~/docs-ref-services/{moniker}/mgmt-relay-readme.md
         children:
         - azure.mgmt.relay
+  - name: Reservations
+    href: ~/docs-ref-services/{moniker}/reservations.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Reservations
+        href: ~/docs-ref-services/{moniker}/mgmt-reservations-readme.md
+        children:
+        - azure.mgmt.reservations
   - name: Resource Connector
     href: ~/docs-ref-services/{moniker}/resource-connector.md
     landingPageType: Service
@@ -3117,6 +3127,10 @@
         children:
         - azure.mgmt.horizondb
       - name: unknown
+        href: ~/docs-ref-services/{moniker}/mgmt-monitorslis-readme.md
+        children:
+        - azure.mgmt.monitorslis
+      - name: unknown
         href: ~/docs-ref-services/{moniker}/mgmt-relationships-readme.md
         children:
         - azure.mgmt.relationships
@@ -3168,7 +3182,7 @@
     items:
     - name: Management
       items:
-      - name: Resource Management - Voice Services
+      - name: Resource Management - Voice Services (deprecated)
         href: ~/docs-ref-services/{moniker}/mgmt-voiceservices-readme.md
         children:
         - azure.mgmt.voiceservices
