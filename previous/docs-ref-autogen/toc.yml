@@ -17508,6 +17508,128 @@
   - azure.mgmt.batchai
 - items:
   - name: Overview
+    uid: azure.mgmt.changeanalysis
+  - items:
+    - name: Overview
+      uid: azure.mgmt.changeanalysis.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.changeanalysis.aio.operations
+      - name: ChangesOperations
+        no-loc:
+        - ChangesOperations
+        uid: azure.mgmt.changeanalysis.aio.operations.ChangesOperations
+      - name: Operations
+        no-loc:
+        - Operations
+        uid: azure.mgmt.changeanalysis.aio.operations.Operations
+      - name: ResourceChangesOperations
+        no-loc:
+        - ResourceChangesOperations
+        uid: azure.mgmt.changeanalysis.aio.operations.ResourceChangesOperations
+      name: operations
+      no-loc:
+      - operations
+    - name: AzureChangeAnalysisManagementClient
+      no-loc:
+      - AzureChangeAnalysisManagementClient
+      uid: azure.mgmt.changeanalysis.aio.AzureChangeAnalysisManagementClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.changeanalysis.models
+    - name: Change
+      no-loc:
+      - Change
+      uid: azure.mgmt.changeanalysis.models.Change
+    - name: ChangeCategory
+      no-loc:
+      - ChangeCategory
+      uid: azure.mgmt.changeanalysis.models.ChangeCategory
+    - name: ChangeList
+      no-loc:
+      - ChangeList
+      uid: azure.mgmt.changeanalysis.models.ChangeList
+    - name: ChangeProperties
+      no-loc:
+      - ChangeProperties
+      uid: azure.mgmt.changeanalysis.models.ChangeProperties
+    - name: ChangeType
+      no-loc:
+      - ChangeType
+      uid: azure.mgmt.changeanalysis.models.ChangeType
+    - name: ErrorAdditionalInfo
+      no-loc:
+      - ErrorAdditionalInfo
+      uid: azure.mgmt.changeanalysis.models.ErrorAdditionalInfo
+    - name: ErrorDetail
+      no-loc:
+      - ErrorDetail
+      uid: azure.mgmt.changeanalysis.models.ErrorDetail
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.mgmt.changeanalysis.models.ErrorResponse
+    - name: Level
+      no-loc:
+      - Level
+      uid: azure.mgmt.changeanalysis.models.Level
+    - name: PropertyChange
+      no-loc:
+      - PropertyChange
+      uid: azure.mgmt.changeanalysis.models.PropertyChange
+    - name: ProxyResource
+      no-loc:
+      - ProxyResource
+      uid: azure.mgmt.changeanalysis.models.ProxyResource
+    - name: Resource
+      no-loc:
+      - Resource
+      uid: azure.mgmt.changeanalysis.models.Resource
+    - name: ResourceProviderOperationDefinition
+      no-loc:
+      - ResourceProviderOperationDefinition
+      uid: azure.mgmt.changeanalysis.models.ResourceProviderOperationDefinition
+    - name: ResourceProviderOperationDisplay
+      no-loc:
+      - ResourceProviderOperationDisplay
+      uid: azure.mgmt.changeanalysis.models.ResourceProviderOperationDisplay
+    - name: ResourceProviderOperationList
+      no-loc:
+      - ResourceProviderOperationList
+      uid: azure.mgmt.changeanalysis.models.ResourceProviderOperationList
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.changeanalysis.operations
+    - name: ChangesOperations
+      no-loc:
+      - ChangesOperations
+      uid: azure.mgmt.changeanalysis.operations.ChangesOperations
+    - name: Operations
+      no-loc:
+      - Operations
+      uid: azure.mgmt.changeanalysis.operations.Operations
+    - name: ResourceChangesOperations
+      no-loc:
+      - ResourceChangesOperations
+      uid: azure.mgmt.changeanalysis.operations.ResourceChangesOperations
+    name: operations
+    no-loc:
+    - operations
+  - name: AzureChangeAnalysisManagementClient
+    no-loc:
+    - AzureChangeAnalysisManagementClient
+    uid: azure.mgmt.changeanalysis.AzureChangeAnalysisManagementClient
+  name: azure.mgmt.changeanalysis
+  no-loc:
+  - azure.mgmt.changeanalysis
+- items:
+  - name: Overview
     uid: azure.mgmt.edgegateway
   - items:
     - name: Overview
