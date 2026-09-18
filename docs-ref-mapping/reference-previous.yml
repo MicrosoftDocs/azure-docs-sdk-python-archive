@@ -30,6 +30,16 @@
       href: ~/docs-ref-services/legacy/applicationinsights-readme.md
       children:
       - azure.applicationinsights
+  - name: Astro
+    href: ~/docs-ref-services/legacy/astro.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management -  Astro (deprecated)
+        href: ~/docs-ref-services/legacy/mgmt-astro-readme.md
+        children:
+        - azure.mgmt.astro
   - name: Azure AD B2C
     href: ~/docs-ref-services/legacy/azure-ad-b2c.md
     landingPageType: Service
@@ -160,6 +170,16 @@
       children:
       - azure.keyvault
       landingPageType: Service
+  - name: LambdaTest HyperExecute
+    href: ~/docs-ref-services/legacy/lambdatest-hyperexecute.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - LambdaTest HyperExecute (deprecated)
+        href: ~/docs-ref-services/legacy/mgmt-lambdatesthyperexecute-readme.md
+        children:
+        - azure.mgmt.lambdatesthyperexecute
   - name: Log Analytics
     href: ~/docs-ref-services/legacy/log-analytics.md
     landingPageType: Service
@@ -248,6 +268,16 @@
       href: ~/docs-ref-services/legacy/cognitiveservices-search-newssearch-readme.md
       children:
       - azure.cognitiveservices.search.newssearch
+  - name: Pinecone Vector DB
+    href: ~/docs-ref-services/legacy/pinecone-vector-db.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Pinecone Vector DB (deprecated)
+        href: ~/docs-ref-services/legacy/mgmt-pineconevectordb-readme.md
+        children:
+        - azure.mgmt.pineconevectordb
   - name: Playwright Testing
     href: ~/docs-ref-services/legacy/playwright-testing.md
     landingPageType: Service
@@ -356,6 +386,16 @@
         children:
         - azure.mgmt.voiceservices
         landingPageType: Service
+  - name: Weights & Biases
+    href: ~/docs-ref-services/legacy/weights-&-biases.md
+    landingPageType: Service
+    items:
+    - name: Management
+      items:
+      - name: Resource Management - Weights & Biases (deprecated)
+        href: ~/docs-ref-services/legacy/mgmt-weightsandbiases-readme.md
+        children:
+        - azure.mgmt.weightsandbiases
   - name: Workload Monitor
     href: ~/docs-ref-services/legacy/workload-monitor.md
     landingPageType: Service
