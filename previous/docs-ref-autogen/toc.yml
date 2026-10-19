@@ -446,6 +446,168 @@
   - azure.datalake.store
 - items:
   - name: Overview
+    uid: azure.ai.anomalydetector
+  - items:
+    - name: Overview
+      uid: azure.ai.anomalydetector.aio
+    - name: AnomalyDetectorClient
+      no-loc:
+      - AnomalyDetectorClient
+      uid: azure.ai.anomalydetector.aio.AnomalyDetectorClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.ai.anomalydetector.models
+    - name: APIVersion
+      no-loc:
+      - APIVersion
+      uid: azure.ai.anomalydetector.models.APIVersion
+    - name: AlignMode
+      no-loc:
+      - AlignMode
+      uid: azure.ai.anomalydetector.models.AlignMode
+    - name: AlignPolicy
+      no-loc:
+      - AlignPolicy
+      uid: azure.ai.anomalydetector.models.AlignPolicy
+    - name: AnomalyDetectionModel
+      no-loc:
+      - AnomalyDetectionModel
+      uid: azure.ai.anomalydetector.models.AnomalyDetectionModel
+    - name: AnomalyDetectorError
+      no-loc:
+      - AnomalyDetectorError
+      uid: azure.ai.anomalydetector.models.AnomalyDetectorError
+    - name: AnomalyDetectorErrorCodes
+      no-loc:
+      - AnomalyDetectorErrorCodes
+      uid: azure.ai.anomalydetector.models.AnomalyDetectorErrorCodes
+    - name: AnomalyInterpretation
+      no-loc:
+      - AnomalyInterpretation
+      uid: azure.ai.anomalydetector.models.AnomalyInterpretation
+    - name: AnomalyState
+      no-loc:
+      - AnomalyState
+      uid: azure.ai.anomalydetector.models.AnomalyState
+    - name: AnomalyValue
+      no-loc:
+      - AnomalyValue
+      uid: azure.ai.anomalydetector.models.AnomalyValue
+    - name: CorrelationChanges
+      no-loc:
+      - CorrelationChanges
+      uid: azure.ai.anomalydetector.models.CorrelationChanges
+    - name: DataSchema
+      no-loc:
+      - DataSchema
+      uid: azure.ai.anomalydetector.models.DataSchema
+    - name: DiagnosticsInfo
+      no-loc:
+      - DiagnosticsInfo
+      uid: azure.ai.anomalydetector.models.DiagnosticsInfo
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.ai.anomalydetector.models.ErrorResponse
+    - name: FillNAMethod
+      no-loc:
+      - FillNAMethod
+      uid: azure.ai.anomalydetector.models.FillNAMethod
+    - name: ImputeMode
+      no-loc:
+      - ImputeMode
+      uid: azure.ai.anomalydetector.models.ImputeMode
+    - name: ModelInfo
+      no-loc:
+      - ModelInfo
+      uid: azure.ai.anomalydetector.models.ModelInfo
+    - name: ModelState
+      no-loc:
+      - ModelState
+      uid: azure.ai.anomalydetector.models.ModelState
+    - name: ModelStatus
+      no-loc:
+      - ModelStatus
+      uid: azure.ai.anomalydetector.models.ModelStatus
+    - name: MultivariateBatchDetectionOptions
+      no-loc:
+      - MultivariateBatchDetectionOptions
+      uid: azure.ai.anomalydetector.models.MultivariateBatchDetectionOptions
+    - name: MultivariateBatchDetectionResultSummary
+      no-loc:
+      - MultivariateBatchDetectionResultSummary
+      uid: azure.ai.anomalydetector.models.MultivariateBatchDetectionResultSummary
+    - name: MultivariateBatchDetectionStatus
+      no-loc:
+      - MultivariateBatchDetectionStatus
+      uid: azure.ai.anomalydetector.models.MultivariateBatchDetectionStatus
+    - name: MultivariateDetectionResult
+      no-loc:
+      - MultivariateDetectionResult
+      uid: azure.ai.anomalydetector.models.MultivariateDetectionResult
+    - name: MultivariateLastDetectionOptions
+      no-loc:
+      - MultivariateLastDetectionOptions
+      uid: azure.ai.anomalydetector.models.MultivariateLastDetectionOptions
+    - name: MultivariateLastDetectionResult
+      no-loc:
+      - MultivariateLastDetectionResult
+      uid: azure.ai.anomalydetector.models.MultivariateLastDetectionResult
+    - name: ResponseError
+      no-loc:
+      - ResponseError
+      uid: azure.ai.anomalydetector.models.ResponseError
+    - name: TimeGranularity
+      no-loc:
+      - TimeGranularity
+      uid: azure.ai.anomalydetector.models.TimeGranularity
+    - name: TimeSeriesPoint
+      no-loc:
+      - TimeSeriesPoint
+      uid: azure.ai.anomalydetector.models.TimeSeriesPoint
+    - name: UnivariateChangePointDetectionOptions
+      no-loc:
+      - UnivariateChangePointDetectionOptions
+      uid: azure.ai.anomalydetector.models.UnivariateChangePointDetectionOptions
+    - name: UnivariateChangePointDetectionResult
+      no-loc:
+      - UnivariateChangePointDetectionResult
+      uid: azure.ai.anomalydetector.models.UnivariateChangePointDetectionResult
+    - name: UnivariateDetectionOptions
+      no-loc:
+      - UnivariateDetectionOptions
+      uid: azure.ai.anomalydetector.models.UnivariateDetectionOptions
+    - name: UnivariateEntireDetectionResult
+      no-loc:
+      - UnivariateEntireDetectionResult
+      uid: azure.ai.anomalydetector.models.UnivariateEntireDetectionResult
+    - name: UnivariateLastDetectionResult
+      no-loc:
+      - UnivariateLastDetectionResult
+      uid: azure.ai.anomalydetector.models.UnivariateLastDetectionResult
+    - name: VariableState
+      no-loc:
+      - VariableState
+      uid: azure.ai.anomalydetector.models.VariableState
+    - name: VariableValues
+      no-loc:
+      - VariableValues
+      uid: azure.ai.anomalydetector.models.VariableValues
+    name: models
+    no-loc:
+    - models
+  - name: AnomalyDetectorClient
+    no-loc:
+    - AnomalyDetectorClient
+    uid: azure.ai.anomalydetector.AnomalyDetectorClient
+  name: azure.ai.anomalydetector
+  no-loc:
+  - azure.ai.anomalydetector
+- items:
+  - name: Overview
     uid: azure.ai.metricsadvisor
   - items:
     - name: Overview
