@@ -76,6 +76,10 @@
       href: ~/docs-ref-services/legacy/ai-anomalydetector-readme.md
       children:
       - azure.ai.anomalydetector
+    - name: Personalizer (deprecated)
+      children:
+      - azure.ai.personalizer
+      landingPageType: Service
     - name: Azure AI Vision SDK (deprecated)
       children:
       - azure.ai.vision
