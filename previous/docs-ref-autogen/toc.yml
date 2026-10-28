@@ -16778,6 +16778,164 @@
   - azure.mgmt.appplatform
 - items:
   - name: Overview
+    uid: azure.mgmt.arizeaiobservabilityeval
+  - items:
+    - name: Overview
+      uid: azure.mgmt.arizeaiobservabilityeval.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.arizeaiobservabilityeval.aio.operations
+      - name: Operations
+        no-loc:
+        - Operations
+        uid: azure.mgmt.arizeaiobservabilityeval.aio.operations.Operations
+      - name: OrganizationsOperations
+        no-loc:
+        - OrganizationsOperations
+        uid: azure.mgmt.arizeaiobservabilityeval.aio.operations.OrganizationsOperations
+      name: operations
+      no-loc:
+      - operations
+    - name: ArizeAIObservabilityEvalMgmtClient
+      no-loc:
+      - ArizeAIObservabilityEvalMgmtClient
+      uid: azure.mgmt.arizeaiobservabilityeval.aio.ArizeAIObservabilityEvalMgmtClient
+    name: aio
+    no-loc:
+    - aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.arizeaiobservabilityeval.models
+    - name: ActionType
+      no-loc:
+      - ActionType
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ActionType
+    - name: CreatedByType
+      no-loc:
+      - CreatedByType
+      uid: azure.mgmt.arizeaiobservabilityeval.models.CreatedByType
+    - name: ErrorAdditionalInfo
+      no-loc:
+      - ErrorAdditionalInfo
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ErrorAdditionalInfo
+    - name: ErrorDetail
+      no-loc:
+      - ErrorDetail
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ErrorDetail
+    - name: ErrorResponse
+      no-loc:
+      - ErrorResponse
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ErrorResponse
+    - name: ManagedServiceIdentity
+      no-loc:
+      - ManagedServiceIdentity
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ManagedServiceIdentity
+    - name: ManagedServiceIdentityType
+      no-loc:
+      - ManagedServiceIdentityType
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ManagedServiceIdentityType
+    - name: MarketplaceDetails
+      no-loc:
+      - MarketplaceDetails
+      uid: azure.mgmt.arizeaiobservabilityeval.models.MarketplaceDetails
+    - name: MarketplaceSubscriptionStatus
+      no-loc:
+      - MarketplaceSubscriptionStatus
+      uid: azure.mgmt.arizeaiobservabilityeval.models.MarketplaceSubscriptionStatus
+    - name: OfferDetails
+      no-loc:
+      - OfferDetails
+      uid: azure.mgmt.arizeaiobservabilityeval.models.OfferDetails
+    - name: Operation
+      no-loc:
+      - Operation
+      uid: azure.mgmt.arizeaiobservabilityeval.models.Operation
+    - name: OperationDisplay
+      no-loc:
+      - OperationDisplay
+      uid: azure.mgmt.arizeaiobservabilityeval.models.OperationDisplay
+    - name: OrganizationProperties
+      no-loc:
+      - OrganizationProperties
+      uid: azure.mgmt.arizeaiobservabilityeval.models.OrganizationProperties
+    - name: OrganizationResource
+      no-loc:
+      - OrganizationResource
+      uid: azure.mgmt.arizeaiobservabilityeval.models.OrganizationResource
+    - name: OrganizationResourceUpdate
+      no-loc:
+      - OrganizationResourceUpdate
+      uid: azure.mgmt.arizeaiobservabilityeval.models.OrganizationResourceUpdate
+    - name: Origin
+      no-loc:
+      - Origin
+      uid: azure.mgmt.arizeaiobservabilityeval.models.Origin
+    - name: PartnerProperties
+      no-loc:
+      - PartnerProperties
+      uid: azure.mgmt.arizeaiobservabilityeval.models.PartnerProperties
+    - name: Resource
+      no-loc:
+      - Resource
+      uid: azure.mgmt.arizeaiobservabilityeval.models.Resource
+    - name: ResourceProvisioningState
+      no-loc:
+      - ResourceProvisioningState
+      uid: azure.mgmt.arizeaiobservabilityeval.models.ResourceProvisioningState
+    - name: SingleSignOnPropertiesV2
+      no-loc:
+      - SingleSignOnPropertiesV2
+      uid: azure.mgmt.arizeaiobservabilityeval.models.SingleSignOnPropertiesV2
+    - name: SingleSignOnStates
+      no-loc:
+      - SingleSignOnStates
+      uid: azure.mgmt.arizeaiobservabilityeval.models.SingleSignOnStates
+    - name: SingleSignOnType
+      no-loc:
+      - SingleSignOnType
+      uid: azure.mgmt.arizeaiobservabilityeval.models.SingleSignOnType
+    - name: SystemData
+      no-loc:
+      - SystemData
+      uid: azure.mgmt.arizeaiobservabilityeval.models.SystemData
+    - name: TrackedResource
+      no-loc:
+      - TrackedResource
+      uid: azure.mgmt.arizeaiobservabilityeval.models.TrackedResource
+    - name: UserAssignedIdentity
+      no-loc:
+      - UserAssignedIdentity
+      uid: azure.mgmt.arizeaiobservabilityeval.models.UserAssignedIdentity
+    - name: UserDetails
+      no-loc:
+      - UserDetails
+      uid: azure.mgmt.arizeaiobservabilityeval.models.UserDetails
+    name: models
+    no-loc:
+    - models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.arizeaiobservabilityeval.operations
+    - name: Operations
+      no-loc:
+      - Operations
+      uid: azure.mgmt.arizeaiobservabilityeval.operations.Operations
+    - name: OrganizationsOperations
+      no-loc:
+      - OrganizationsOperations
+      uid: azure.mgmt.arizeaiobservabilityeval.operations.OrganizationsOperations
+    name: operations
+    no-loc:
+    - operations
+  - name: ArizeAIObservabilityEvalMgmtClient
+    no-loc:
+    - ArizeAIObservabilityEvalMgmtClient
+    uid: azure.mgmt.arizeaiobservabilityeval.ArizeAIObservabilityEvalMgmtClient
+  name: azure.mgmt.arizeaiobservabilityeval
+  no-loc:
+  - azure.mgmt.arizeaiobservabilityeval
+- items:
+  - name: Overview
     uid: azure.mgmt.astro
   - items:
     - name: Overview

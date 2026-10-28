@@ -5735,6 +5735,10 @@ references:
   href: https://docs.python.org/3/library/sys.html#sys.flags.isolated
   name: isolated
   uid: sys.flags.isolated
+- fullName: sys.flags.lazy_imports
+  href: https://docs.python.org/3/library/sys.html#sys.flags.lazy_imports
+  name: lazy_imports
+  uid: sys.flags.lazy_imports
 - fullName: sys.flags.no_site
   href: https://docs.python.org/3/library/sys.html#sys.flags.no_site
   name: no_site
@@ -5967,6 +5971,10 @@ references:
   href: https://docs.python.org/3/library/tempfile.html#tempfile.TemporaryDirectory.name
   name: name
   uid: tempfile.TemporaryDirectory.name
+- fullName: test.support.warnings_helper.WarningsRecorder.warnings
+  href: https://docs.python.org/3/library/test.html#test.support.warnings_helper.WarningsRecorder.warnings
+  name: warnings
+  uid: test.support.warnings_helper.WarningsRecorder.warnings
 - fullName: textwrap.TextWrapper.break_long_words
   href: https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper.break_long_words
   name: break_long_words
@@ -6195,6 +6203,30 @@ references:
   href: https://docs.python.org/3/library/dialog.html#tkinter.simpledialog.Dialog.result
   name: result
   uid: tkinter.simpledialog.Dialog.result
+- fullName: tokenize.TokenInfo.end
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo.end
+  name: end
+  uid: tokenize.TokenInfo.end
+- fullName: tokenize.TokenInfo.exact_type
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo.exact_type
+  name: exact_type
+  uid: tokenize.TokenInfo.exact_type
+- fullName: tokenize.TokenInfo.line
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo.line
+  name: line
+  uid: tokenize.TokenInfo.line
+- fullName: tokenize.TokenInfo.start
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo.start
+  name: start
+  uid: tokenize.TokenInfo.start
+- fullName: tokenize.TokenInfo.string
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo.string
+  name: string
+  uid: tokenize.TokenInfo.string
+- fullName: tokenize.TokenInfo.type
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo.type
+  name: type
+  uid: tokenize.TokenInfo.type
 - fullName: tomllib.TOMLDecodeError.colno
   href: https://docs.python.org/3/library/tomllib.html#tomllib.TOMLDecodeError.colno
   name: colno
@@ -9487,6 +9519,10 @@ references:
   href: https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ProcessPoolExecutor.terminate_workers
   name: terminate_workers
   uid: concurrent.futures.ProcessPoolExecutor.terminate_workers
+- fullName: concurrent.futures.ThreadPoolExecutor.prepare_context
+  href: https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.ThreadPoolExecutor.prepare_context
+  name: prepare_context
+  uid: concurrent.futures.ThreadPoolExecutor.prepare_context
 - fullName: concurrent.interpreters.Interpreter.call
   href: https://docs.python.org/3/library/concurrent.interpreters.html#concurrent.interpreters.Interpreter.call
   name: call
@@ -17471,6 +17507,10 @@ references:
   href: https://docs.python.org/3/library/test.html#test.support.os_helper.EnvironmentVarGuard.unset
   name: unset
   uid: test.support.os_helper.EnvironmentVarGuard.unset
+- fullName: test.support.warnings_helper.WarningsRecorder.reset
+  href: https://docs.python.org/3/library/test.html#test.support.warnings_helper.WarningsRecorder.reset
+  name: reset
+  uid: test.support.warnings_helper.WarningsRecorder.reset
 - fullName: textwrap.TextWrapper.fill
   href: https://docs.python.org/3/library/textwrap.html#textwrap.TextWrapper.fill
   name: fill
@@ -25467,6 +25507,26 @@ references:
   href: https://docs.python.org/3/library/mimetypes.html#mimetypes.types_map
   name: types_map
   uid: mimetypes.types_map
+- fullName: mmap.ACCESS_COPY
+  href: https://docs.python.org/3/library/mmap.html#mmap.ACCESS_COPY
+  name: ACCESS_COPY
+  uid: mmap.ACCESS_COPY
+- fullName: mmap.ACCESS_DEFAULT
+  href: https://docs.python.org/3/library/mmap.html#mmap.ACCESS_DEFAULT
+  name: ACCESS_DEFAULT
+  uid: mmap.ACCESS_DEFAULT
+- fullName: mmap.ACCESS_READ
+  href: https://docs.python.org/3/library/mmap.html#mmap.ACCESS_READ
+  name: ACCESS_READ
+  uid: mmap.ACCESS_READ
+- fullName: mmap.ACCESS_WRITE
+  href: https://docs.python.org/3/library/mmap.html#mmap.ACCESS_WRITE
+  name: ACCESS_WRITE
+  uid: mmap.ACCESS_WRITE
+- fullName: mmap.ALLOCATIONGRANULARITY
+  href: https://docs.python.org/3/library/mmap.html#mmap.ALLOCATIONGRANULARITY
+  name: ALLOCATIONGRANULARITY
+  uid: mmap.ALLOCATIONGRANULARITY
 - fullName: mmap.MADV_AUTOSYNC
   href: https://docs.python.org/3/library/mmap.html#mmap.MADV_AUTOSYNC
   name: MADV_AUTOSYNC
@@ -25659,6 +25719,22 @@ references:
   href: https://docs.python.org/3/library/mmap.html#mmap.MS_SYNC
   name: MS_SYNC
   uid: mmap.MS_SYNC
+- fullName: mmap.PAGESIZE
+  href: https://docs.python.org/3/library/mmap.html#mmap.PAGESIZE
+  name: PAGESIZE
+  uid: mmap.PAGESIZE
+- fullName: mmap.PROT_EXEC
+  href: https://docs.python.org/3/library/mmap.html#mmap.PROT_EXEC
+  name: PROT_EXEC
+  uid: mmap.PROT_EXEC
+- fullName: mmap.PROT_READ
+  href: https://docs.python.org/3/library/mmap.html#mmap.PROT_READ
+  name: PROT_READ
+  uid: mmap.PROT_READ
+- fullName: mmap.PROT_WRITE
+  href: https://docs.python.org/3/library/mmap.html#mmap.PROT_WRITE
+  name: PROT_WRITE
+  uid: mmap.PROT_WRITE
 - fullName: msvcrt.CRTDBG_MODE_DEBUG
   href: https://docs.python.org/3/library/msvcrt.html#msvcrt.CRTDBG_MODE_DEBUG
   name: CRTDBG_MODE_DEBUG
@@ -28743,6 +28819,34 @@ references:
   href: https://docs.python.org/3/library/tempfile.html#tempfile.tempdir
   name: tempdir
   uid: tempfile.tempdir
+- fullName: termios.TCIFLUSH
+  href: https://docs.python.org/3/library/termios.html#termios.TCIFLUSH
+  name: TCIFLUSH
+  uid: termios.TCIFLUSH
+- fullName: termios.TCIOFF
+  href: https://docs.python.org/3/library/termios.html#termios.TCIOFF
+  name: TCIOFF
+  uid: termios.TCIOFF
+- fullName: termios.TCIOFLUSH
+  href: https://docs.python.org/3/library/termios.html#termios.TCIOFLUSH
+  name: TCIOFLUSH
+  uid: termios.TCIOFLUSH
+- fullName: termios.TCION
+  href: https://docs.python.org/3/library/termios.html#termios.TCION
+  name: TCION
+  uid: termios.TCION
+- fullName: termios.TCOFLUSH
+  href: https://docs.python.org/3/library/termios.html#termios.TCOFLUSH
+  name: TCOFLUSH
+  uid: termios.TCOFLUSH
+- fullName: termios.TCOOFF
+  href: https://docs.python.org/3/library/termios.html#termios.TCOOFF
+  name: TCOOFF
+  uid: termios.TCOOFF
+- fullName: termios.TCOON
+  href: https://docs.python.org/3/library/termios.html#termios.TCOON
+  name: TCOON
+  uid: termios.TCOON
 - fullName: termios.TCSADRAIN
   href: https://docs.python.org/3/library/termios.html#termios.TCSADRAIN
   name: TCSADRAIN
@@ -28755,6 +28859,30 @@ references:
   href: https://docs.python.org/3/library/termios.html#termios.TCSANOW
   name: TCSANOW
   uid: termios.TCSANOW
+- fullName: termios.TIOCGSIZE
+  href: https://docs.python.org/3/library/termios.html#termios.TIOCGSIZE
+  name: TIOCGSIZE
+  uid: termios.TIOCGSIZE
+- fullName: termios.TIOCGWINSZ
+  href: https://docs.python.org/3/library/termios.html#termios.TIOCGWINSZ
+  name: TIOCGWINSZ
+  uid: termios.TIOCGWINSZ
+- fullName: termios.TIOCSSIZE
+  href: https://docs.python.org/3/library/termios.html#termios.TIOCSSIZE
+  name: TIOCSSIZE
+  uid: termios.TIOCSSIZE
+- fullName: termios.TIOCSWINSZ
+  href: https://docs.python.org/3/library/termios.html#termios.TIOCSWINSZ
+  name: TIOCSWINSZ
+  uid: termios.TIOCSWINSZ
+- fullName: termios.VMIN
+  href: https://docs.python.org/3/library/termios.html#termios.VMIN
+  name: VMIN
+  uid: termios.VMIN
+- fullName: termios.VTIME
+  href: https://docs.python.org/3/library/termios.html#termios.VTIME
+  name: VTIME
+  uid: termios.VTIME
 - fullName: test.support.ALWAYS_EQ
   href: https://docs.python.org/3/library/test.html#test.support.ALWAYS_EQ
   name: ALWAYS_EQ
@@ -35791,6 +35919,10 @@ references:
   href: https://docs.python.org/3/library/tkinter.ttk.html#tkinter.ttk.Widget
   name: Widget
   uid: tkinter.ttk.Widget
+- fullName: tokenize.TokenInfo
+  href: https://docs.python.org/3/library/tokenize.html#tokenize.TokenInfo
+  name: TokenInfo
+  uid: tokenize.TokenInfo
 - fullName: trace.CoverageResults
   href: https://docs.python.org/3/library/trace.html#trace.CoverageResults
   name: CoverageResults
